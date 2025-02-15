@@ -1,2 +1,7 @@
-# deepekagurunathan.github.io
-deepekagurunathan.github.io/portfolio
+Data Analyst
+
+Education
+
+Projects
+
+Work Experience
