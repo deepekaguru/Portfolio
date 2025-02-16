@@ -35,16 +35,15 @@ UnitedHealth Group · Contract Jul 2019 - Dec 2020
 𝐃𝐚𝐭𝐚 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫
 GSK · Contract Aug 2016 - Jun 2019 
 
-• Designed, developed, and optimized ETL pipelines, improving data processing efficiency by 40% through automation and performance tuning.
-• Worked extensively with DataStage, and SQL-based ETL processes, ensuring data accuracy in large-scale healthcare and pharmaceutical datasets.
-• Collaborated with cross-functional teams (data scientists, business analysts, and stakeholders) to develop insights-driven reporting solutions, enhancing decision-making speed by 30%.
+• Designed, developed, and optimized ETL pipelines, improving data processing efficiency by 𝟒𝟎% through automation and performance tuning.
+
+• Collaborated with cross-functional teams (data scientists, business analysts, and stakeholders) to develop insights-driven reporting solutions, enhancing decision-making speed by 𝟑𝟎%.
+
 • Automated data workflows using CI/CD pipelines (Jenkins, Git), decreasing manual effort by 50% and improving deployment efficiency.
-• Developed interactive dashboards and data visualizations using Power BI, improving business reporting efficiency.
-• Ensured compliance with industry standards and data privacy regulations, reducing security risks while handling sensitive healthcare data.
-• Designed, developed, and optimized ETL pipelines, improving data processing efficiency by 40% through automation and performance tuning. • Worked extensively with DataStage, and SQL-based ETL processes, ensuring data accuracy in large-scale healthcare and pharmaceutical datasets.
-• Collaborated with cross-functional teams (data scientists, business analysts, and stakeholders) to develop insights-driven reporting solutions, enhancing decision-making speed by 30%. 
-• Automated data workflows using CI/CD pipelines (Jenkins, Git), decreasing manual effort by 50% and improving deployment efficiency. • Developed interactive dashboards and data visualizations using Power BI, improving business reporting efficiency. 
-• Ensured compliance with industry standards and data privacy regulations, reducing security risks while handling sensitive healthcare data.
+
+• Developed interactive dashboards and data visualizations using 𝐏𝐨𝐰𝐞𝐫 𝐁𝐈, improving business reporting efficiency.
+
+
 
 𝙎𝙠𝙞𝙡𝙡𝙨: 𝙊𝙧𝙖𝙘𝙡𝙚 𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 · 𝙄𝘽𝙈 𝙞𝙣𝙛𝙤𝙨𝙥𝙝𝙚𝙧𝙚 𝙙𝙖𝙩𝙖𝙨𝙩𝙖𝙜𝙚 · 𝙈𝙞𝙘𝙧𝙤𝙨𝙤𝙛𝙩 𝙋𝙤𝙬𝙚𝙧 𝘽𝙄 · 𝙀𝙏𝙇 𝙏𝙚𝙨𝙩𝙞𝙣𝙜
 
@@ -53,14 +52,13 @@ GSK · Contract Aug 2016 - Jun 2019
 Lloyds Banking Group · ContractLloyds Banking Group · Contract Mar 2013 - Aug 2016 
 
 • Developed and maintained ETL workflows using IBM DataStage and Informatica PowerCenter ensuring seamless data integration across banking and financial systems.
-• Built data quality frameworks, enhancing data consistency and accuracy critical for regulatory and compliance reporting.
-• Automated data transformation processes, cutting manual effort by 50% and improving operational efficiency.
+
+• Automated data transformation processes, cutting manual effort by 𝟓𝟎% and improving operational efficiency.
+
 • Integrated structured and semi-structured data from multiple financial sources, supporting advanced risk and fraud analytics.
-• Collaborated with data governance and compliance teams to ensure adherence to GDPR, PCI DSS, and banking security protocols.
-• Designed and optimized SQL queries and stored procedures, reducing data retrieval time by 45% for real-time reporting needs.
-• Developed and maintained ETL workflows using IBM DataStage and Informatica PowerCenter ensuring seamless data integration across banking and financial systems. • Built data quality frameworks, enhancing data consistency and accuracy critical for regulatory and compliance reporting. • Automated data transformation processes, cutting manual effort by 50% and improving operational efficiency. • Integrated structured and semi-structured data from multiple financial sources, supporting advanced risk and fraud analytics. 
-• Collaborated with data governance and compliance teams to ensure adherence to GDPR, PCI DSS, and banking security protocols. 
-• Designed and optimized SQL queries and stored procedures, reducing data retrieval time by 45% for real-time reporting needs.
+
+• Designed and optimized SQL queries and stored procedures, reducing data retrieval time by 𝟒𝟓% for real-time reporting needs.
+
 
 𝙎𝙠𝙞𝙡𝙡𝙨: 𝙄𝘽𝙈 𝙞𝙣𝙛𝙤𝙨𝙥𝙝𝙚𝙧𝙚 𝙙𝙖𝙩𝙖𝙨𝙩𝙖𝙜𝙚 · 𝘿𝙖𝙩𝙖 𝙀𝙣𝙜𝙞𝙣𝙚𝙚𝙧𝙞𝙣𝙜 · 𝙀𝙏𝙇 𝙊𝙥𝙩𝙞𝙢𝙞𝙯𝙖𝙩𝙞𝙤𝙣 · 𝘿𝙖𝙩𝙖 𝙌𝙪𝙖𝙡𝙞𝙩𝙮 & 𝘾𝙤𝙢𝙥𝙡𝙞𝙖𝙣𝙘𝙚 · 𝙎𝙌𝙇 𝙋𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚 𝙏𝙪𝙣𝙞𝙣𝙜 · 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙘𝙖 𝙋𝙤𝙬𝙚𝙧𝘾𝙚𝙣𝙩𝙚𝙧
 
