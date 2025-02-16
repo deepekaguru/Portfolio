@@ -22,7 +22,9 @@ Senior Data Engineer
 UnitedHealth Group · Contract Jul 2019 - Dec 2020 
 
 • Designed, developed, and implemented batch jobs to extract data from various sources such as Oracle and Microsoft SQL servers, transform it according to business requirements, and load it into front-end applications.
+
 • Worked on Talend Open Studio for the end-to-end development of ETL processes, ensuring efficient data extraction, transformation, and loading.
+
 • Acted as a liaison between clients and stakeholders to gather and understand functional requirements, ensuring alignment with project objectives.
 • Completed over 85 change requests for data migration and performance upgrades implemented using CI/CD Jenkins pipelines.
 • Worked on data analysis and generated data visualizations and reports that helped to improve team performance by 35% using Tableau and Python.
