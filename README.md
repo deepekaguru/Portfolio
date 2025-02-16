@@ -21,8 +21,7 @@ Work Experience
 Senior Data Engineer
 UnitedHealth Group · Contract Jul 2019 - Dec 2020 
 
-• Designed, developed, and implemented batch jobs to extract data from various sources such as Oracle and Microsoft SQL servers, transform it according to business       
-  requirements, and load it into front-end applications.
+• Designed, developed, and implemented batch jobs to extract data from various sources such as Oracle and Microsoft SQL servers, transform it according to business      requirements, and load it into front-end applications.
   
 • Completed over 𝟖𝟓 change requests for data migration and performance upgrades implemented using CI/CD Jenkins pipelines.
 
