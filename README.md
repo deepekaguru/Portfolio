@@ -21,17 +21,11 @@ Work Experience
 Senior Data Engineer
 UnitedHealth Group · Contract Jul 2019 - Dec 2020 
 
-• Designed, developed, and implemented batch jobs to extract data from various sources such as Oracle and Microsoft SQL servers, transform it according to business requirements, and load it into front-end applications.
-
-• Worked on Talend Open Studio for the end-to-end development of ETL processes, ensuring efficient data extraction, transformation, and loading.
-
-• Acted as a liaison between clients and stakeholders to gather and understand functional requirements, ensuring alignment with project objectives.
-• Completed over 85 change requests for data migration and performance upgrades implemented using CI/CD Jenkins pipelines.
-• Worked on data analysis and generated data visualizations and reports that helped to improve team performance by 35% using Tableau and Python.
-• Designed, developed, and implemented batch jobs to extract data from various sources such as Oracle and Microsoft SQL servers, transform it according to business requirements, and load it into front-end applications. 
+• Designed, developed, and implemented batch jobs to extract data from various sources such as Oracle and Microsoft SQL servers, transform it according to business       requirements, and load it into front-end applications.
+• Completed over** 85** change requests for data migration and performance upgrades implemented using CI/CD Jenkins pipelines.
+• Worked on data analysis and generated data visualizations and reports that helped to improve team performance by** 35% **using Tableau and Python.
 • Worked on Talend Open Studio for the end-to-end development of ETL processes, ensuring efficient data extraction, transformation, and loading. 
-• Acted as a liaison between clients and stakeholders to gather and understand functional requirements, ensuring alignment with project objectives. • Completed over 85 change requests for data migration and performance upgrades implemented using CI/CD Jenkins pipelines. 
-• Worked on data analysis and generated data visualizations and reports that helped to improve team performance by 35% using Tableau and Python.
+
 
 𝙎𝙠𝙞𝙡𝙡𝙨: 𝙏𝙖𝙡𝙚𝙣𝙙 𝙊𝙥𝙚𝙣 𝙎𝙩𝙪𝙙𝙞𝙤 · 𝙋𝙇/𝙎𝙌𝙇 · 𝙋𝙮𝙩𝙝𝙤𝙣 (𝙋𝙧𝙤𝙜𝙧𝙖𝙢𝙢𝙞𝙣𝙜 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚) · 𝙅𝙚𝙣𝙠𝙞𝙣𝙨 · 𝙆𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨 · 𝙏𝙖𝙗𝙡𝙚𝙖𝙪
 
