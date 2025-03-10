@@ -17,7 +17,9 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **Projects**
 
-Hospital Performance Dashboard - Power BI  ![Alt Text](https://github.com/deepkaguru/Portfolio/blob/main/images/![Uploading Hospital performace Dashboard.png)
+![Hospital Performance Dashboard](https://github.com/deepekaguru/Portfolio/blob/main/Hospital%20performance%20Dashboard.png)
+
+Hospital Performance Dashboard - Power BI  
 
 • Designed and built an interactive hospital analytics dashboard using Power BI, providing insights into admissions, bed occupancy, and rejection trends of claims.
 
