@@ -1,14 +1,20 @@
-**𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭**
+**Data Scientist | Product Analyst | Machine Learning Engineer **
 
 ## Table of Contents
+
 [About Me](#about-me)
+
 [Education](#education-section)
+
 [Work Experience](#work-experience)
+
 [Projects](#projects)
+
 [Skills](#skills)
+
 [Contact](#contact)
 
-📌 ## <a id="about-me"></a>About Me
+## <a id="about-me"></a>About Me
 
 I'm a Data Analyst with 𝟖 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐢𝐧 𝐃𝐚𝐭𝐚 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠, 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐢𝐧𝐠 𝐢𝐧 𝐄𝐓𝐋 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐝𝐚𝐭𝐚 𝐚𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬, 𝐚𝐧𝐝 𝐛𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞. Throughout my career, I’ve built and optimized data pipelines, transformed raw data into meaningful insights, and contributed to data-driven decision-making across industries.  
 
