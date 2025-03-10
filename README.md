@@ -1,13 +1,11 @@
 **𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭**
 
 ## 📌 Table of Contents
-- [🔹 About Me](#about-me)
-- [📖 Education](#education)
-- [💼 Projects](#projects)
-- [🛠 Skills](#skills)
-- [📩 Contact](#contact)
+[Education](#education-section)
 
-**Education** #education
+
+## <a id="education-section"></a>Education
+
 
 📌 University of North Texas
 Master’s in Advanced Data Analytics (Expected Graduation: May 2026)
