@@ -1,8 +1,16 @@
 **𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭**
 
-## 📌 Table of Contents
+## Table of Contents
+[About Me](#about-me)
 [Education](#education-section)
+[Work Experience](#work-experience)
+[Projects](#projects)
+[Skills](#skills)
+[Contact](#contact)
 
+📌 ## <a id="about-me"></a>About Me
+
+I'm a Data Analyst with 𝟖 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐢𝐧 𝐃𝐚𝐭𝐚 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠, 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐢𝐧𝐠 𝐢𝐧 𝐄𝐓𝐋 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐝𝐚𝐭𝐚 𝐚𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬, 𝐚𝐧𝐝 𝐛𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞. Throughout my career, I’ve built and optimized data pipelines, transformed raw data into meaningful insights, and contributed to data-driven decision-making across industries.  
 
 ## <a id="education-section"></a>Education
 
@@ -20,7 +28,7 @@ Strong foundation in Database management systems, Data analysis, and Objected-or
 Gained expertise in Artificial Intelligence, Operating Systems, and Grid Computing
 Completed project in diagnosing Diabetic retinopathy using artificial intelligence 
 
-**Projects** #projects
+## <a id="projects"></a>Projects
 
 ![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
 
@@ -41,7 +49,7 @@ Hospital Performance Dashboard - Power BI
 
 
 
-**Work Experience**
+## <a id="work-experience"></a>Work Experience
 
 Senior Data Engineer
 UnitedHealth Group · Contract Jul 2019 - Dec 2020 
@@ -86,5 +94,11 @@ Lloyds Banking Group · ContractLloyds Banking Group · Contract Mar 2013 - Aug 
 
 
 𝙎𝙠𝙞𝙡𝙡𝙨: 𝙄𝘽𝙈 𝙞𝙣𝙛𝙤𝙨𝙥𝙝𝙚𝙧𝙚 𝙙𝙖𝙩𝙖𝙨𝙩𝙖𝙜𝙚 · 𝘿𝙖𝙩𝙖 𝙀𝙣𝙜𝙞𝙣𝙚𝙚𝙧𝙞𝙣𝙜 · 𝙀𝙏𝙇 𝙊𝙥𝙩𝙞𝙢𝙞𝙯𝙖𝙩𝙞𝙤𝙣 · 𝘿𝙖𝙩𝙖 𝙌𝙪𝙖𝙡𝙞𝙩𝙮 & 𝘾𝙤𝙢𝙥𝙡𝙞𝙖𝙣𝙘𝙚 · 𝙎𝙌𝙇 𝙋𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚 𝙏𝙪𝙣𝙞𝙣𝙜 · 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙘𝙖 𝙋𝙤𝙬𝙚𝙧𝘾𝙚𝙣𝙩𝙚𝙧
+
+## <a id="contact"></a>Contact
+
+Deepekagurunathan@gmail.com
+https://www.linkedin.com/in/deepeka-gurunathan/
+
 
 
