@@ -1,4 +1,4 @@
-**Data Scientist | Product Analyst | Machine Learning Engineer**
+**𝗗𝗮𝘁𝗮 𝗦𝗰𝗶𝗲𝗻𝘁𝗶𝘀𝘁 | 𝗣𝗿𝗼𝗱𝘂𝗰𝘁 𝗔𝗻𝗮𝗹𝘆𝘀𝘁 | 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿**
 
 ## Table of Contents
 
@@ -98,8 +98,12 @@ Lloyds Banking Group · ContractLloyds Banking Group · Contract Mar 2013 - Aug 
 
 ## <a id="contact"></a>Contact
 
-Deepekagurunathan@gmail.com
-https://www.linkedin.com/in/deepeka-gurunathan/
+E-mail: Deepekagurunathan@gmail.com
+
+LinkedIn URL: https://www.linkedin.com/in/deepeka-gurunathan/
+
+
+## <a id="about-me"></a>Back To Top
 
 
 
