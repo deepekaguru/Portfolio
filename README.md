@@ -1,6 +1,4 @@
 **𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭**
-![Alt Text](https://github.com/your-username/your-repo/blob/main/images/sample-image.png)
-
 
 **Education**
 
@@ -19,7 +17,7 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **Projects**
 
-Hospital Performance Dashboard - Power BI 
+Hospital Performance Dashboard - Power BI  ![Alt Text](https://github.com/your-username/your-repo/blob/main/images/sample-image.png)
 
 • Designed and built an interactive hospital analytics dashboard using Power BI, providing insights into admissions, bed occupancy, and rejection trends of claims.
 
