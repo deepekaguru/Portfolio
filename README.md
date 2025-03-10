@@ -29,7 +29,8 @@ Hospital Performance Dashboard - Power BI
 
 • Combined financial analyses, presenting insurance-paid funds vs. patient out-of-pocket costs, facilitating hospital billing and revenue analysis.
 
-Power BI · DAX · Power Query · Data Visualization · Healthcare Analytics
+𝗣𝗼𝘄𝗲𝗿 𝗕𝗜 · 𝗗𝗔𝗫 · 𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
+
 
 
 **Work Experience**
@@ -46,7 +47,7 @@ UnitedHealth Group · Contract Jul 2019 - Dec 2020
 • Worked on Talend Open Studio for the end-to-end development of ETL processes, ensuring efficient data extraction, transformation, and loading. 
 
 
-𝙎𝙠𝙞𝙡𝙡𝙨: 𝙏𝙖𝙡𝙚𝙣𝙙 𝙊𝙥𝙚𝙣 𝙎𝙩𝙪𝙙𝙞𝙤 · 𝙋𝙇/𝙎𝙌𝙇 · 𝙋𝙮𝙩𝙝𝙤𝙣 (𝙋𝙧𝙤𝙜𝙧𝙖𝙢𝙢𝙞𝙣𝙜 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚) · 𝙅𝙚𝙣𝙠𝙞𝙣𝙨 · 𝙆𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨 · 𝙏𝙖𝙗𝙡𝙚𝙖𝙪
+𝙏𝙖𝙡𝙚𝙣𝙙 𝙊𝙥𝙚𝙣 𝙎𝙩𝙪𝙙𝙞𝙤 · 𝙋𝙇/𝙎𝙌𝙇 · 𝙋𝙮𝙩𝙝𝙤𝙣 (𝙋𝙧𝙤𝙜𝙧𝙖𝙢𝙢𝙞𝙣𝙜 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚) · 𝙅𝙚𝙣𝙠𝙞𝙣𝙨 · 𝙆𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨 · 𝙏𝙖𝙗𝙡𝙚𝙖𝙪
 
 𝐃𝐚𝐭𝐚 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫
 GSK · Contract Aug 2016 - Jun 2019 
