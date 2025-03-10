@@ -7,7 +7,7 @@
 - [🛠 Skills](#skills)
 - [📩 Contact](#contact)
 
-**Education**
+**Education** #education
 
 📌 University of North Texas
 Master’s in Advanced Data Analytics (Expected Graduation: May 2026)
@@ -22,7 +22,7 @@ Strong foundation in Database management systems, Data analysis, and Objected-or
 Gained expertise in Artificial Intelligence, Operating Systems, and Grid Computing
 Completed project in diagnosing Diabetic retinopathy using artificial intelligence 
 
-**Projects**
+**Projects** #projects
 
 ![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
 
