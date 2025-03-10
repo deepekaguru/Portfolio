@@ -1,18 +1,13 @@
-**Data Scientist | Product Analyst | Machine Learning Engineer **
+**Data Scientist | Product Analyst | Machine Learning Engineer**
 
 ## Table of Contents
 
-[About Me](#about-me)
-
-[Education](#education-section)
-
-[Work Experience](#work-experience)
-
-[Projects](#projects)
-
-[Skills](#skills)
-
-[Contact](#contact)
+•	[About Me](#about-me)
+•	[Education](#education-section)
+•	[Work Experience](#work-experience)
+•	[Projects](#projects)
+•	[Skills](#skills)
+•	[Contact](#contact)
 
 ## <a id="about-me"></a>About Me
 
