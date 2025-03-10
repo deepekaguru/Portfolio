@@ -101,7 +101,7 @@ Lloyds Banking Group · ContractLloyds Banking Group · Contract Mar 2013 - Aug 
 
 E-mail: Deepekagurunathan@gmail.com
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Deepika_Gurunathan-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/deepikagurunathan/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Deepeka_Gurunathan-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/deepeka-gurunathan/)
 
 
 
