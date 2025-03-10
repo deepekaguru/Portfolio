@@ -1,4 +1,6 @@
 **𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭**
+![Alt Text](https://github.com/your-username/your-repo/blob/main/images/sample-image.png)
+
 
 **Education**
 
