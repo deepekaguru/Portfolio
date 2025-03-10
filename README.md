@@ -17,7 +17,8 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **Projects**
 
-![Hospital Performance Dashboard](https://github.com/deepekaguru/Portfolio/blob/main/Hospital-Dashboard.png)
+![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
+
 
 Hospital Performance Dashboard - Power BI  
 
