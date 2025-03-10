@@ -20,10 +20,15 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 Hospital Performance Dashboard - Power BI 
 
 • Designed and built an interactive hospital analytics dashboard using Power BI, providing insights into admissions, bed occupancy, and rejection trends of claims.
+
 • Optimized various DAX measures and Power Query transformations, including randomized patient IDs, age group categorization, and peak-hour designation.
+
 • Improved bed occupancy reporting by removing flawed calculations to yield hospital resource utilization real-time monitoring.
+
 • Processed claim denial patterns by insurance providers, establishing high-rejection carriers and emergency and urgent care admission trends.
+
 • Combined financial analyses, presenting insurance-paid funds vs. patient out-of-pocket costs, facilitating hospital billing and revenue analysis.
+
 Power BI · DAX · Power Query · Data Visualization · Healthcare Analytics
 
 
