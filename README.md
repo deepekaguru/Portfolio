@@ -1,6 +1,7 @@
-## Data Scientist| Product Analyst| Machine Leaning Engineer
+## Data Scientist| Product Analyst| ML Engineer
 
 ## Table of Contents
+  [Home](#home)
 
 •	[About Me](#about-me)
 •	[Education](#education-section)
@@ -100,10 +101,11 @@ Lloyds Banking Group · ContractLloyds Banking Group · Contract Mar 2013 - Aug 
 
 E-mail: Deepekagurunathan@gmail.com
 
-LinkedIn URL: https://www.linkedin.com/in/deepeka-gurunathan/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Deepika_Gurunathan-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/deepikagurunathan/)
 
 
-[Back To Top](#about-me)
+
+[Back To Top](#home)
 
 
 
