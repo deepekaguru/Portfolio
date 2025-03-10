@@ -1,5 +1,12 @@
 **𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭**
 
+## 📌 Table of Contents
+- [🔹 About Me](#about-me)
+- [📖 Education](#education)
+- [💼 Projects](#projects)
+- [🛠 Skills](#skills)
+- [📩 Contact](#contact)
+
 **Education**
 
 📌 University of North Texas
