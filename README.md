@@ -51,7 +51,7 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **2. Personal Financial Dashboard - Microsoft Excel**
 
-![Personal Financial Dashboard](https://github.com/deepekaguru/Portfolio/blob/main/Finance.png)
+![Personal Financial Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Finance.png)
 
 • Created and optimized Pivot Tables and Pivot Charts, incorporating slicers for month-wise and category-wise filtering to enhance user experience.
 
