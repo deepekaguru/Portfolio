@@ -32,7 +32,7 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 ## <a id="projects"></a>Projects
 
-![Hospital Performance Dashboard](https://github.com/deepekaguru/Portfolio/blob/main/Finance.png)
+![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
 
 
 Hospital Performance Dashboard - Power BI  
@@ -49,8 +49,9 @@ Hospital Performance Dashboard - Power BI
 
 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜 · 𝗗𝗔𝗫 · 𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
 
-![Personal Financial Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
+![Personal Financial Dashboard](https://github.com/deepekaguru/Portfolio/blob/main/Finance.png)
 
+Personal Financial Dashboard - Microsoft Excel  
 
 • Created and optimized Pivot Tables and Pivot Charts, incorporating slicers for month-wise and category-wise filtering to enhance user experience.
 
