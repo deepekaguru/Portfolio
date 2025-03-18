@@ -49,6 +49,24 @@ Hospital Performance Dashboard - Power BI
 
 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜 · 𝗗𝗔𝗫 · 𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
 
+![Personal Financial Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
+
+
+• Created and optimized Pivot Tables and Pivot Charts, incorporating slicers for month-wise and category-wise filtering to enhance user experience.
+
+• Implemented dynamic calculations for Total Net Worth, Income Goal Progress, and Expense Tracking, leveraging advanced Excel functions and automated data aggregation.
+
+• Developed KPI tracking metrics, identifying max and min expenses, ensuring better financial decision-making and cost control.
+
+• Integrated income vs. expenses trend analysis through dual-line charts, enabling comparison of financial inflows and outflows.
+
+• Applied conditional formatting for highlighting overdue bills, spending patterns, and financial progress insights in real-time.
+
+• Suggested improvements, including automated debt tracking, forecasting financial trends, and enhanced data validation mechanisms for accurate financial planning.
+
+𝗘𝘅𝗰𝗲𝗹 · 𝗣𝗶𝘃𝗼𝘁 𝗧𝗮𝗯𝗹𝗲𝘀 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗙𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 · 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱 𝗗𝗲𝘀𝗶𝗴𝗻
+
+
 
 
 ## <a id="work-experience"></a>Work Experience
