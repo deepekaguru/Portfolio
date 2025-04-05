@@ -46,8 +46,6 @@ Developed an interactive forecasting tool using Facebook Prophet to predict quar
 
 **Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn**
 
-Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn
-
 
 **2. Hospital Performance Dashboard - Power BI**
 
