@@ -32,7 +32,17 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 ## <a id="projects"></a>Projects
 
-**1. Hospital Performance Dashboard - Power BI**
+**1. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
+•	Implemented time series modeling with Prophet, fine-tuned for quarterly seasonality
+•	Calculated evaluation metrics including MAPE, MAE, RMSE, and R²
+•	Designed a user-friendly interface with Streamlit, supporting tooltip guidance and data filtering
+
+**Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn**
+
+Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn
+
+
+**2. Hospital Performance Dashboard - Power BI**
 
 ![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
 
