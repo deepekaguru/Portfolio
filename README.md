@@ -44,6 +44,9 @@ Developed an interactive forecasting tool using Facebook Prophet to predict quar
 
 •	Designed a user-friendly interface with Streamlit, supporting tooltip guidance and data filtering
 
+•	Deployed the interactive app on Streamlit Community Cloud with shareable forecasting visualizations
+
+
 **Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn**
 
 
