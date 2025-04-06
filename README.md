@@ -36,7 +36,8 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 Developed an interactive forecasting tool using Facebook Prophet to predict quarterly retail sales tax revenue across Iowa cities and counties. The app was built with Streamlit and enables users to select a location, define forecast horizons (1–8 quarters), and visualize trends using dynamic charts.
 
-![image](https://github.com/user-attachments/assets/d7a51902-9336-47c8-b9f9-1969082f63b2)
+![image](https://github.com/user-attachments/assets/5281054d-8adc-48b6-858d-af55beb9c671)
+
 
 •	Implemented time series modeling with Prophet, fine-tuned for quarterly seasonality
 
