@@ -32,7 +32,21 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 ## <a id="projects"></a>Projects
 
-**1. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
+**1. DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
+
+Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
+
+• Integrated OpenAI’s LLM to dynamically generate concise, patient-friendly medication details
+• Designed dual search modes: by drug name (typed input) and by condition (dropdown)
+• Used regex logic to extract and display markdown content into expandable Streamlit sections
+• Applied custom theming and CSS for a polished medical assistant-style user experience
+• Secured API key management with .env, and prepared app for deployment on Streamlit Cloud
+
+**Tools & Tech: Python, Streamlit, OpenAI API (GPT-4), Regex, dotenv, Git, Markdown**
+
+
+
+**2. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
 
 Developed an interactive forecasting tool using Facebook Prophet to predict quarterly retail sales tax revenue across Iowa cities and counties. The app was built with Streamlit and enables users to select a location, define forecast horizons (1–8 quarters), and visualize trends using dynamic charts.
 
@@ -51,7 +65,7 @@ Developed an interactive forecasting tool using Facebook Prophet to predict quar
 **Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn**
 
 
-**2. Hospital Performance Dashboard - Power BI**
+**3. Hospital Performance Dashboard - Power BI**
 
 ![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
 
@@ -68,7 +82,7 @@ Developed an interactive forecasting tool using Facebook Prophet to predict quar
 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜 · 𝗗𝗔𝗫 · 𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
 
 
-**2. Personal Financial Dashboard - Microsoft Excel**
+**4. Personal Financial Dashboard - Microsoft Excel**
 
 ![Personal Financial Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Finance.png)
 
