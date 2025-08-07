@@ -20,6 +20,7 @@ I'm a Data Analyst with 𝟖 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫�
 📌 University of North Texas
 Master’s in Advanced Data Analytics (Expected Graduation: May 2026)
 
+
 Focus on regression modeling, statistics, data visualization, machine learning, and NLP
 Hands-on projects in predictive modeling, business intelligence, and data governance
 Courses include Applied Probability Modeling, Natural Language Processing, and Business Intelligence Tools
@@ -34,7 +35,7 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **1. DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
 
-DrugInfoGen.png
+[DrugInfoGen.png](https://github.com/deepekaguru/Portfolio/blob/7eae282940ec8755d9e180bd7101c90f957dd7d8/DrugInfoGen.png)
 
 Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
 
