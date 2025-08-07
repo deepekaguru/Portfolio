@@ -34,6 +34,8 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **1. DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
 
+DrugInfoGen.png
+
 Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
 
 • Integrated OpenAI’s LLM to dynamically generate concise, patient-friendly medication details
