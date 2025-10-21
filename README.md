@@ -35,9 +35,10 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **1. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)**
 
+Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.
+
 ![image](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Postgresql_project.png)
 
-Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.
 
 Key Highlights:
 
@@ -55,9 +56,10 @@ Tools & Tech: PostgreSQL, Power BI, DAX, SQL, Data Modeling, Visualization
 
 **2.DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
 
+Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
+
 ![image](https://github.com/deepekaguru/Portfolio/blob/7eae282940ec8755d9e180bd7101c90f957dd7d8/DrugInfoGen.png)
 
-Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
 
 Key Highlights:
 
@@ -74,7 +76,7 @@ Key Highlights:
 **Tools & Tech: Python, Streamlit, OpenAI API (GPT-4), Regex, dotenv, Git, Markdown**
 
 
-**2. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
+**3. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
 
 Developed an interactive forecasting tool using Facebook Prophet to predict quarterly retail sales tax revenue across Iowa cities and counties. The app was built with Streamlit and enables users to select a location, define forecast horizons (1–8 quarters), and visualize trends using dynamic charts.
 
@@ -94,7 +96,7 @@ Key Highlights:
 **Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn**
 
 
-**3. Hospital Performance Dashboard - Power BI**
+**4. Hospital Performance Dashboard - Power BI**
 
 ![Hospital Performance Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png)
 
@@ -111,7 +113,7 @@ Key Highlights:
 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜 · 𝗗𝗔𝗫 · 𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
 
 
-**4. Personal Financial Dashboard - Microsoft Excel**
+**5. Personal Financial Dashboard - Microsoft Excel**
 
 ![Personal Financial Dashboard](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Finance.png)
 
