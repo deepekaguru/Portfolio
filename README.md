@@ -35,7 +35,7 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **1. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)**
 
-![image](https://github.com/deepekaguru/Portfolio/blob/main/Postgresql%20Project.pdf)
+![image](https://github.com/deepekaguru/Portfolio/blob/main/Postgresql%20project.png)
 
 Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.
 
