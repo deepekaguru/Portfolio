@@ -33,11 +33,27 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 ## <a id="projects"></a>Projects
 
-**1. DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
+**1. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)**
+
+Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.
+
+Key Highlights:
+
+• Developed normalized relational schema in PostgreSQL with sales, products, employees, departments, and campaign data.
+• Built Power BI connection via Npgsql for live data import and created measures using DAX for KPIs such as Total Revenue, ROI %, Average Transaction Value, Fraud Rate %,    and Department Salary Analysis.
+• Designed interactive visuals including bar charts, line trends, donut charts, and KPIs to track product sales, employee performance, and fraud patterns.
+• Applied data storytelling principles to highlight key insights such as top-performing products, salary variance across departments, and monthly revenue fluctuations.
+• Delivered a professional end-to-end workflow: database design → data modeling → visualization → insight generation.
+
+Tools & Tech: PostgreSQL, Power BI, DAX, SQL, Data Modeling, Visualization
+
+**2.DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
 
 ![image](https://github.com/deepekaguru/Portfolio/blob/7eae282940ec8755d9e180bd7101c90f957dd7d8/DrugInfoGen.png)
 
 Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
+
+Key Highlights:
 
 • Integrated OpenAI’s LLM to dynamically generate concise, patient-friendly medication details
 • Designed dual search modes: by drug name (typed input) and by condition (dropdown)
@@ -48,13 +64,13 @@ Built an interactive Streamlit application that generates human-readable drug in
 **Tools & Tech: Python, Streamlit, OpenAI API (GPT-4), Regex, dotenv, Git, Markdown**
 
 
-
 **2. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
 
 Developed an interactive forecasting tool using Facebook Prophet to predict quarterly retail sales tax revenue across Iowa cities and counties. The app was built with Streamlit and enables users to select a location, define forecast horizons (1–8 quarters), and visualize trends using dynamic charts.
 
 ![image](https://github.com/user-attachments/assets/5281054d-8adc-48b6-858d-af55beb9c671)
 
+Key Highlights:
 
 •	Implemented time series modeling with Prophet, fine-tuned for quarterly seasonality
 
