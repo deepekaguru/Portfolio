@@ -58,7 +58,7 @@ Tools & Tech: PostgreSQL, Power BI, DAX, SQL, Data Modeling, Visualization
 
 Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI’s GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.
 
-![image](https://github.com/deepekaguru/Portfolio/blob/7eae282940ec8755d9e180bd7101c90f957dd7d8/DrugInfoGen.png)
+![image](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/DrugInfoGen.png)
 
 
 Key Highlights:
