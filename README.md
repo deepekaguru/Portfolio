@@ -18,7 +18,7 @@ I'm a Data Analyst with 𝟖 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫�
 
 
 📌 University of North Texas
-Master’s in Advanced Data Analytics (Expected Graduation: May 2026)
+Master’s in Advanced Data Analytics (Graduating: May 2026)
 
 
 Focus on regression modeling, statistics, data visualization, machine learning, and NLP
