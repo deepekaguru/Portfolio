@@ -12,20 +12,25 @@
 
 ## <a id="about-me"></a>About Me
 
-I'm a Data Analyst with 𝟖 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐢𝐧 𝐃𝐚𝐭𝐚 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠, 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐢𝐧𝐠 𝐢𝐧 𝐄𝐓𝐋 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐝𝐚𝐭𝐚 𝐚𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬, 𝐚𝐧𝐝 𝐛𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞. Throughout my career, I’ve built and optimized data pipelines, transformed raw data into meaningful insights, and contributed to data-driven decision-making across industries.  
+Hi, I’m Deepeka — a data professional with 8 years of experience in Data Engineering and currently pursuing my Master’s in Advanced Data Analytics.
+
+I specialize in ETL development, data analytics, and business intelligence, and more recently, I’ve been working on machine learning, NLP, and AI/LLM-powered applications.
+
+My background spans across healthcare, banking, and pharma domains, where I’ve built scalable data pipelines, production-grade systems, and actionable dashboards to support critical decision-making.
+
+I'm passionate about building AI tools that solve real-world problems—from campus safety assistants to generative search systems.
+
+Currently exploring opportunities where I can combine my engineering foundation, ML skills, and project experience to drive innovation and business impac
 
 ## <a id="education-section"></a>Education
 
-
-📌 University of North Texas
-Master’s in Advanced Data Analytics (Graduating: May 2026)
-
+📌 University of North Texas - Master’s in Advanced Data Analytics (Graduating: May 2026)
 
 Focus on regression modeling, statistics, data visualization, machine learning, and NLP
 Hands-on projects in predictive modeling, business intelligence, and data governance
 Courses include Applied Probability Modeling, Natural Language Processing, and Business Intelligence Tools
 
-📌 Bachelor’s in Computer Science and Engineering
+📌 Anna University - Bachelor’s in Computer Science and Engineering (Jun 2012)
 
 Strong foundation in Database management systems, Data analysis, and Objected-oriented programming
 Gained expertise in Artificial Intelligence, Operating Systems, and Grid Computing
