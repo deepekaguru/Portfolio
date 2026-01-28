@@ -1,4 +1,4 @@
-## Data Scientist| Product Analyst| ML Engineer
+## Data Scientist| AIML Engineer
 
 ## Table of Contents
   [Home](#home)
@@ -52,7 +52,7 @@ Built-in Safety: Features an integrated Safety Node that detects high-risk medic
 
 Interactive Dashboard: A custom Streamlit UI that provides clickable links to official NIH study records and live status tracking of the agent's "thinking" process.
 
-Tech Stack: Python | LangGraph | Llama 3.2 (Ollama) | Streamlit | ClinicalTrials.gov API | Custom CSS
+**Tech Stack: Python | LangGraph | Llama 3.2 (Ollama) | Streamlit | ClinicalTrials.gov API | Custom CSS**
 
 **2. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)**
 
@@ -73,7 +73,7 @@ Key Highlights:
 
 • Delivered a professional end-to-end workflow: database design → data modeling → visualization → insight generation.
 
-Tools & Tech: PostgreSQL, Power BI, DAX, SQL, Data Modeling, Visualization
+**Tools & Tech: PostgreSQL| Power BI| DAX| SQL| Data Modeling| Visualization**
 
 **3.DrugInfoGen – AI-Powered Drug Information Assistant (LLM App with Streamlit)**
 
@@ -94,7 +94,7 @@ Key Highlights:
 
 • Secured API key management with .env, and prepared app for deployment on Streamlit Cloud
 
-**Tools & Tech: Python, Streamlit, OpenAI API (GPT-4), Regex, dotenv, Git, Markdown**
+**Tools & Tech: Python|Streamlit|OpenAI API (GPT-4)|Regex|dotenv|Git**
 
 
 **4. Retail Sales Tax Forecasting - Machine Learning (Time Series Forecasting)**
@@ -114,7 +114,7 @@ Key Highlights:
 •	Deployed the interactive app on Streamlit Community Cloud with shareable forecasting visualizations
 
 
-**Tools & Tech: Python, Streamlit, Facebook Prophet, Pandas, Matplotlib, Plotly, Scikit-learn**
+**Tools & Tech: Python| Streamlit| Facebook Prophet| Pandas| Matplotlib| Plotly| Scikit-learn**
 
 
 **5. Hospital Performance Dashboard - Power BI**
@@ -131,7 +131,7 @@ Key Highlights:
 
 • Combined financial analyses, presenting insurance-paid funds vs. patient out-of-pocket costs, facilitating hospital billing and revenue analysis.
 
-𝗣𝗼𝘄𝗲𝗿 𝗕𝗜 · 𝗗𝗔𝗫 · 𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
+**Tools & Tech: 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜|𝗗𝗔𝗫|𝗣𝗼𝘄𝗲𝗿 𝗤𝘂𝗲𝗿𝘆|𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻|𝗛𝗲𝗮𝗹𝘁𝗵𝗰𝗮𝗿𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀**
 
 
 **6. Personal Financial Dashboard - Microsoft Excel**
@@ -150,7 +150,7 @@ Key Highlights:
 
 • Suggested improvements, including automated debt tracking, forecasting financial trends, and enhanced data validation mechanisms for accurate financial planning.
 
-𝗘𝘅𝗰𝗲𝗹 · 𝗣𝗶𝘃𝗼𝘁 𝗧𝗮𝗯𝗹𝗲𝘀 · 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 · 𝗙𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 · 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱 𝗗𝗲𝘀𝗶𝗴𝗻
+**𝗘𝘅𝗰𝗲𝗹|𝗣𝗶𝘃𝗼𝘁 𝗧𝗮𝗯𝗹𝗲𝘀| 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻|𝗙𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀|𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱 𝗗𝗲𝘀𝗶𝗴𝗻**
 
 
 
