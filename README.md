@@ -40,6 +40,8 @@ Completed project in diagnosing Diabetic retinopathy using artificial intelligen
 
 **1. Agentic AI - Clinical Trial Research Agent**
 
+<img width="1892" height="675" alt="Screenshot 2026-01-28 105123" src="https://github.com/user-attachments/assets/f73f9bf3-db7b-4c38-b224-e910304b88e4" />
+
 Key Highlights:
 
 Local Execution: Runs entirely on-device (via Ollama) to ensure 100% data privacy—a critical requirement for healthcare applications.
