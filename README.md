@@ -20,7 +20,7 @@ My background spans across healthcare, banking, and pharma domains, where I’ve
 
 I'm passionate about building AI tools that solve real-world problems—from campus safety assistants to generative search systems.
 
-Currently exploring opportunities where I can combine my engineering foundation, ML skills, and project experience to drive innovation and business impac
+Currently exploring opportunities where I can combine my engineering foundation, ML skills, and project experience to drive innovation and business impact.
 
 ## <a id="education-section"></a>Education
 
