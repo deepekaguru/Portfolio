@@ -26,15 +26,17 @@ Currently exploring opportunities where I can combine my engineering foundation,
 
 📌 University of North Texas - Master’s in Advanced Data Analytics (Graduating: May 2026)
 
-Focus on regression modeling, statistics, data visualization, machine learning, and NLP
-Hands-on projects in predictive modeling, business intelligence, and data governance
-Courses include Applied Probability Modeling, Natural Language Processing, and Business Intelligence Tools
-
 📌 Anna University - Bachelor’s in Computer Science and Engineering (Jun 2012)
 
-Strong foundation in Database management systems, Data analysis, and Objected-oriented programming
-Gained expertise in Artificial Intelligence, Operating Systems, and Grid Computing
-Completed project in diagnosing Diabetic retinopathy using artificial intelligence 
+**##<a id="work-experience"></a>Work Experience**
+Senior Data Scientist, Lloyds Bank | Dec 2020 – May 2022
+
+Data Scientist, GlaxoSmithKline | Aug 2018 – Dec 2020
+
+Data Engineer, UnitedHealth Group | Aug 2016 – Jul 2018
+
+ETL Developer, Telkomsel - Mar 2013 – Jul 2016
+
 
 ## <a id="projects"></a>Projects
 
