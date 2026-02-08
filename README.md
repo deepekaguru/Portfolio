@@ -45,7 +45,7 @@ ETL Developer, Telkomsel           | Mar 2013 – Jul 2016
 
 **1. Agentic AI - Clinical Trial Research Agent**
 
-![image](https://raw.githubusercontent.com/deepekaguru/Portfolio/blob/main/Medical-research-agent.png)
+![image](https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Medical-research-agent.png)
 
 Key Highlights:
 
