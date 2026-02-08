@@ -1,6 +1,6 @@
 ## Lead Data Scientist| AIML Engineer
 
-![image](https://github.com/deepekaguru/Portfolio/blob/main/Screenshot%202026-01-28%20105123.png)
+![image](https://github.com/deepekaguru/Portfolio/blob/main/profile.png)
 
 ## Table of Contents
   [Home](#home)
