@@ -1,6 +1,6 @@
 ## Lead Data Scientist| AIML Engineer
 
-<img src="images/profile.jpg" alt="My Profile Picture" width="200">
+![My Profile Picture](images/profile.jpg)
 
 ## Table of Contents
   [Home](#home)
