@@ -26,19 +26,19 @@ Always open to connecting and discussing data, AI, and applied machine learning.
 
 ## <a id="education-section"></a>Education
 
-📌 Master’s in Advanced Data Analytics, Univesity of North Texas, Denton | May 2026
+MS, Advanced Data Analytics, UNT, Denton | May 2026
 
-📌 Bachelor’s in Computer Science and Engineering, Anna University, India | Jun 2012
+B.E Computer Science, Anna University, India | Jun 2012
 
 **<a id="work-experience"></a>Work Experience**
 
-Senior Data Scientist, Lloyds Bank | Dec 2020 – May 2022
+Senior Data Scientist, Lloyds Bank, Dec 2020 – May 2022
 
-Data Scientist, GlaxoSmithKline    | Aug 2018 – Dec 2020
+Data Scientist, GlaxoSmithKline, Aug 2018 – Dec 2020
 
-Data Engineer, UnitedHealth Group  | Aug 2016 – Jul 2018
+Data Engineer, UnitedHealth Group, Aug 2016 – Jul 2018
 
-ETL Developer, Telkomsel           | Mar 2013 – Jul 2016
+ETL Developer, Telkomsel, Mar 2013 – Jul 2016
 
 
 ## <a id="projects"></a>Projects
