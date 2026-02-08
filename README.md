@@ -12,15 +12,15 @@
 
 ## <a id="about-me"></a>About Me
 
-Hi, I’m Deepeka — a data professional with 8 years of experience in Data Engineering and currently pursuing my Master’s in Advanced Data Analytics.
+Lead Data Scientist with 9+ years of experience across data science, machine learning, data engineering, and applied AI in healthcare, banking, and large-scale analytics environments. I specialize in building end-to-end AI systems—from scalable ETL and MLOps pipelines to production-grade ML and AI-driven solutions.
 
-I specialize in ETL development, data analytics, and business intelligence, and more recently, I’ve been working on machine learning, NLP, and AI/LLM-powered applications.
+I’ve worked across healthcare, pharma, banking, and telecommunications, transforming complex, high-volume datasets into reliable models and analytics platforms that improve accuracy, efficiency, and data-driven decision-making at scale
 
-My background spans across healthcare, banking, and pharma domains, where I’ve built scalable data pipelines, production-grade systems, and actionable dashboards to support critical decision-making.
+Currently pursuing an MS in Advanced Data Analytics (GPA: 4.0) while serving as a Graduate Teaching Assistant and Research Assistant. My work focuses on machine learning, statistical modeling, simulation, and applied AI, including AI-driven automation and intelligent validation frameworks.
 
-I'm passionate about building AI tools that solve real-world problems—from campus safety assistants to generative search systems.
+I’m particularly interested in applying Machine Learning, Generative AI, and scalable AI systems to solve complex, real-world problems in healthcare, analytics platforms, and intelligent automation.
 
-Currently exploring opportunities where I can combine my engineering foundation, ML skills, and project experience to drive innovation and business impact.
+Always open to connecting and discussing data, AI, and applied machine learning.
 
 ## <a id="education-section"></a>Education
 
