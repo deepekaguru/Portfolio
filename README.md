@@ -4,7 +4,7 @@
 
 Welcome to my professional portfolio!
 
-### 🌐 [View Interactive Portfolio with Dark Mode](https://deepekaguru.github.io/Portfolio/portfolio/)
+### 🌐 [View Interactive Portfolio with Dark Mode](https://deepekaguru.github.io/Portfolio/)
 
 ---
 
