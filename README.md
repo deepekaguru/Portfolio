@@ -1,6 +1,6 @@
 ## Lead Data Scientist| AIML Engineer
 
-![My Profile Picture]([images/profile.jpg](https://github.com/deepekaguru/Portfolio/blob/main/profile.png))
+![image](https://github.com/deepekaguru/Portfolio/blob/main/Screenshot%202026-01-28%20105123.png)
 
 ## Table of Contents
   [Home](#home)
@@ -45,7 +45,7 @@ ETL Developer, Telkomsel           | Mar 2013 – Jul 2016
 
 **1. Agentic AI - Clinical Trial Research Agent**
 
-![image](https://github.com/deepekaguru/Portfolio/blob/main/Screenshot%202026-01-28%20105123.png)
+![image](https://raw.githubusercontent.com/deepekaguru/Portfolio/blob/main/Screenshot%202026-01-28%20105123.png)
 
 Key Highlights:
 
