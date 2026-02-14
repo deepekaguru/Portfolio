@@ -466,7 +466,7 @@
         <section id="projects">
             <h2>Projects</h2>
 
-            <!-- Project 1 -->
+            <!-- Project 10 -->
             <div class="project">
                 <h3>1. Agentic AI - Clinical Trial Research Agent</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Medical-research-agent.png" alt="Clinical Trial Research Agent">
@@ -488,60 +488,167 @@
                     <span class="tech-tag">Custom CSS</span>
                 </div>
             </div>
-
-            <!-- Project 2 -->
+            <!-- Project 9 -->
             <div class="project">
-                <h3>2. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)</h3>
-                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Postgresql_project.png" alt="Business Analytics Dashboard">
-                
-                <p>Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.</p>
-                
-                <p><strong>Key Highlights:</strong></p>
-                <ul>
-                    <li>Developed normalized relational schema in PostgreSQL with sales, products, employees, departments, and campaign data.</li>
-                    <li>Built Power BI connection via Npgsql for live data import and created measures using DAX for KPIs such as Total Revenue, ROI %, Average Transaction Value, Fraud Rate %, and Department Salary Analysis.</li>
-                    <li>Designed interactive visuals including bar charts, line trends, donut charts, and KPIs to track product sales, employee performance, and fraud patterns.</li>
-                    <li>Applied data storytelling principles to highlight key insights such as top-performing products, salary variance across departments, and monthly revenue fluctuations.</li>
-                    <li>Delivered a professional end-to-end workflow: database design → data modeling → visualization → insight generation.</li>
-                </ul>
-                
-                <div class="tech-stack">
-                    <span class="tech-tag">PostgreSQL</span>
-                    <span class="tech-tag">Power BI</span>
-                    <span class="tech-tag">DAX</span>
-                    <span class="tech-tag">SQL</span>
-                    <span class="tech-tag">Data Modeling</span>
-                    <span class="tech-tag">Visualization</span>
-                </div>
-            </div>
+    <h3>Fintech Debt Companion: Multi-Agent Financial RAG (LangGraph DAG)</h3>
 
-            <!-- Project 3 -->
+    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/fintech-debt-companion.png"
+         alt="Fintech Debt Companion - Multi-Agent Financial RAG">
+
+    <p>
+        Built an Agentic AI financial advisor to automate debt analysis and market benchmarking.
+        Unlike standard RAG systems, this solution uses a directed acyclic graph (DAG) to manage state across specialized agents
+        for extraction, market research, and behavioral nudging.
+    </p>
+
+    <p><strong>Key Engineering Highlights:</strong></p>
+    <ul>
+        <li><strong>Stateful Orchestration:</strong> Implemented with LangGraph to manage multi-turn financial conversations while maintaining a consistent <code>AgentState</code>.</li>
+        <li><strong>Market-Aware RAG:</strong> Built a deterministic retrieval pipeline that extracts APR benchmarks from the <strong>2025 CFPB Market Report</strong>.</li>
+        <li><strong>Separation of Concerns:</strong> Isolated mathematical logic (Snowball/Avalanche payoff plans) into Python tools to prevent LLM hallucinations.</li>
+        <li><strong>Production Readiness:</strong> Secured configuration via <code>.env</code> and enforced structured <strong>Pydantic</strong> validation for all extracted fields.</li>
+    </ul>
+    <div class="tech-stack">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">LangGraph</span>
+        <span class="tech-tag">Multi-Agent</span>
+        <span class="tech-tag">RAG</span>
+        <span class="tech-tag">Pandas</span>
+        <span class="tech-tag">Pydantic</span>
+        <span class="tech-tag">dotenv</span>
+        <span class="tech-tag">CFPB Market Data</span>
+    </div>
+</div>
+            
+
+            <!-- Project 8 -->
             <div class="project">
-                <h3>3. DrugInfoGen – AI-Powered Drug Information Assistant</h3>
-                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/DrugInfoGen.png" alt="DrugInfoGen">
-                
-                <p>Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI's GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.</p>
-                
-                <p><strong>Key Highlights:</strong></p>
-                <ul>
-                    <li>Integrated OpenAI's LLM to dynamically generate concise, patient-friendly medication details</li>
-                    <li>Designed dual search modes: by drug name (typed input) and by condition (dropdown)</li>
-                    <li>Used regex logic to extract and display markdown content into expandable Streamlit sections</li>
-                    <li>Applied custom theming and CSS for a polished medical assistant-style user experience</li>
-                    <li>Secured API key management with .env, and prepared app for deployment on Streamlit Cloud</li>
-                </ul>
-                
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Streamlit</span>
-                    <span class="tech-tag">OpenAI API (GPT-4)</span>
-                    <span class="tech-tag">Regex</span>
-                    <span class="tech-tag">dotenv</span>
-                    <span class="tech-tag">Git</span>
-                </div>
-            </div>
+    <h3>9. Fraud Investigation Copilot — LangChain + FastAPI (RAG + Similar Case Retrieval)</h3>
+    <!-- Replace with your image URL -->
+    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/fraud-investigation-copilot.png"
+         alt="Fraud Investigation Copilot - LangChain + FastAPI">
 
-            <!-- Project 4 -->
+    <p>
+        Built an AI-powered fraud investigation copilot that explains why a transaction was flagged using:
+        <strong>policy rule RAG</strong>, <strong>similar historical fraud cases</strong>, and a production-style
+        <strong>FastAPI</strong> endpoint that returns structured JSON for audit and analyst workflows.
+    </p>
+
+    <p><strong>Policy Ingestion:</strong></p>
+    <ul>
+        <li>Ingested <code>.txt</code> policy files from <code>data/policies/</code></li>
+        <li>Chunked using <code>RecursiveCharacterTextSplitter</code></li>
+        <li>Embedded using <code>OpenAIEmbeddings</code> and stored in Chroma (<code>vectorstore/policies</code>)</li>
+    </ul>
+
+    <p><strong>Fraud Case Ingestion:</strong></p>
+    <ul>
+        <li>Loaded <code>creditcard.csv</code> from <code>data/credit/</code> and filtered <code>Class == 1</code> (confirmed fraud)</li>
+        <li>Converted each row to a concise text summary</li>
+        <li>Embedded and stored in a separate Chroma store (<code>vectorstore/fraud_cases</code>)</li>
+    </ul>
+
+    <p><strong>Inference Flow (<code>POST /explain</code>):</strong></p>
+    <ul>
+        <li>Receive transaction JSON</li>
+        <li>Use policy RAG to determine applicable rules and generate explanation</li>
+        <li>Retrieve similar historical fraud cases</li>
+        <li>Extract rule IDs (e.g., <code>AML-TRX-001</code>) using regex</li>
+        <li>Return structured JSON: decision + explanation + rules + similar cases</li>
+    </ul>
+
+    <p><strong>Tech Stack:</strong> Python, FastAPI, LangChain, Chroma, Pandas, python-dotenv, OpenAPI/Swagger.</p>
+
+    <div class="tech-stack">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">FastAPI</span>
+        <span class="tech-tag">LangChain</span>
+        <span class="tech-tag">RAG</span>
+        <span class="tech-tag">Chroma</span>
+        <span class="tech-tag">OpenAI Embeddings</span>
+        <span class="tech-tag">OpenAPI</span>
+    </div>
+</div>
+
+            <!-- Project 7 -->
+            <div class="project">
+    <h3>7. Automobile Price Prediction Service — End-to-End ML Pipeline (Azure ML Studio)</h3>
+    <!-- Replace with your image URL -->
+    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/azure-automobile-price.png"
+         alt="Automobile Price Prediction - Azure ML Studio Pipeline">
+
+    <p>
+        Built a production-ready machine learning pipeline in <strong>Azure Machine Learning Studio</strong> to predict
+        vehicle market prices from technical specifications, enabling scalable inventory valuation for automotive retail.
+    </p>
+
+    <p><strong>Tech Stack &amp; Infrastructure:</strong></p>
+    <ul>
+        <li><strong>Platform:</strong> Azure Machine Learning Studio (SDK v2)</li>
+        <li><strong>Deployment:</strong> Managed Online Endpoint (real-time inference)</li>
+    </ul>
+
+    <p><strong>Pipeline Architecture:</strong></p>
+    <ul>
+        <li><strong>Data Ingestion:</strong> Automobile price dataset (raw)</li>
+        <li><strong>Data Preprocessing:</strong> Missing value handling; normalization for numeric features (e.g., horsepower, peak-rpm)</li>
+        <li><strong>Feature Transformation:</strong> Custom Python script to rename and isolate <code>predicted_price</code> from scored labels for business readability</li>
+        <li><strong>Training:</strong> Linear Regression trained on 70% of the dataset</li>
+        <li><strong>Evaluation:</strong> Mean Absolute Error (MAE) and R-squared</li>
+    </ul>
+
+    <p><strong>Deployment:</strong> Deployed as a REST endpoint in <code>eastus2</code>, allowing external applications to send vehicle data via JSON and receive instant price predictions.</p>
+
+    <div class="tech-stack">
+        <span class="tech-tag">Azure ML Studio</span>
+        <span class="tech-tag">SDK v2</span>
+        <span class="tech-tag">Managed Online Endpoint</span>
+        <span class="tech-tag">Regression</span>
+        <span class="tech-tag">MAE</span>
+        <span class="tech-tag">R²</span>
+        <span class="tech-tag">REST API</span>
+    </div>
+</div>
+            
+            <!-- Project 6 -->
+            <div class="project">
+    <h3>8. Kidney CT Image Classification — PyTorch + EfficientNet (Transfer Learning)</h3>
+    <!-- Replace with your image URL -->
+    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/kidney-ct-classification.png"
+         alt="Kidney CT Image Classification - PyTorch EfficientNet">
+
+    <p>
+        Built a clinically meaningful image classification system to classify kidney CT scan images into four classes:
+        <strong>Normal</strong>, <strong>Cyst</strong>, <strong>Stone</strong>, and <strong>Tumor</strong>. The approach uses transfer learning and
+        class-imbalance aware training with robust evaluation.
+    </p>
+
+    <p><strong>Approach &amp; Methodology:</strong></p>
+    <ul>
+        <li><strong>Preprocessing:</strong> Resized to 224×224; normalization using ImageNet mean/std</li>
+        <li><strong>Augmentation:</strong> Rotation + affine transforms applied only to training data (no augmentation on validation/test)</li>
+        <li><strong>Split:</strong> Train 70% / Validation 15% / Test 15%</li>
+        <li><strong>Model:</strong> EfficientNet backbone pretrained on ImageNet + custom 4-class head</li>
+        <li><strong>Two-Phase Training:</strong> (1) Train classifier head with frozen backbone (2) Fine-tune last backbone layers with lower LR</li>
+        <li><strong>Class Imbalance:</strong> Class-weighted <code>CrossEntropyLoss</code> to improve minority-class recall</li>
+    </ul>
+
+    <p><strong>Evaluation Focus:</strong> per-class recall (especially Tumor), macro F1-score, precision, confusion matrix (accuracy used as secondary).</p>
+
+    <p><strong>Results Summary:</strong> Overall Accuracy ~97%, Tumor Recall ~96%, Macro F1-score ~96%.</p>
+
+    <div class="tech-stack">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">PyTorch</span>
+        <span class="tech-tag">Torchvision</span>
+        <span class="tech-tag">EfficientNet</span>
+        <span class="tech-tag">Transfer Learning</span>
+        <span class="tech-tag">Class Weights</span>
+        <span class="tech-tag">Confusion Matrix</span>
+    </div>
+</div>
+
+            <!-- Project 5 -->
             <div class="project">
                 <h3>4. Retail Sales Tax Forecasting - Machine Learning</h3>
                 <img src="https://github.com/user-attachments/assets/5281054d-8adc-48b6-858d-af55beb9c671?raw=true" alt="Retail Sales Tax Forecasting">
@@ -567,7 +674,8 @@
                 </div>
             </div>
 
-            <!-- Project 5 -->
+
+            <!-- Project 4 -->
             <div class="project">
                 <h3>5. Hospital Performance Dashboard - Power BI</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png" alt="Hospital Performance Dashboard">
@@ -589,8 +697,35 @@
                 </div>
             </div>
 
-            <!-- Project 6 -->
-            <div class="project">
+            
+        <!-- Project 3 -->
+<div class="project">
+                <h3>3. DrugInfoGen – AI-Powered Drug Information Assistant</h3>
+                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/DrugInfoGen.png" alt="DrugInfoGen">
+                
+                <p>Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI's GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.</p>
+                
+                <p><strong>Key Highlights:</strong></p>
+                <ul>
+                    <li>Integrated OpenAI's LLM to dynamically generate concise, patient-friendly medication details</li>
+                    <li>Designed dual search modes: by drug name (typed input) and by condition (dropdown)</li>
+                    <li>Used regex logic to extract and display markdown content into expandable Streamlit sections</li>
+                    <li>Applied custom theming and CSS for a polished medical assistant-style user experience</li>
+                    <li>Secured API key management with .env, and prepared app for deployment on Streamlit Cloud</li>
+                </ul>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">OpenAI API (GPT-4)</span>
+                    <span class="tech-tag">Regex</span>
+                    <span class="tech-tag">dotenv</span>
+                    <span class="tech-tag">Git</span>
+                </div>
+            </div>
+
+<!-- Project 2 -->
+ <div class="project">
                 <h3>6. Personal Financial Dashboard - Microsoft Excel</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Finance.png" alt="Personal Financial Dashboard">
                 
@@ -612,6 +747,32 @@
                 </div>
             </div>
         </section>
+
+<!-- Project 1 -->
+<div class="project">
+                <h3>2. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)</h3>
+                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Postgresql_project.png" alt="Business Analytics Dashboard">
+                
+                <p>Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.</p>
+                
+                <p><strong>Key Highlights:</strong></p>
+                <ul>
+                    <li>Developed normalized relational schema in PostgreSQL with sales, products, employees, departments, and campaign data.</li>
+                    <li>Built Power BI connection via Npgsql for live data import and created measures using DAX for KPIs such as Total Revenue, ROI %, Average Transaction Value, Fraud Rate %, and Department Salary Analysis.</li>
+                    <li>Designed interactive visuals including bar charts, line trends, donut charts, and KPIs to track product sales, employee performance, and fraud patterns.</li>
+                    <li>Applied data storytelling principles to highlight key insights such as top-performing products, salary variance across departments, and monthly revenue fluctuations.</li>
+                    <li>Delivered a professional end-to-end workflow: database design → data modeling → visualization → insight generation.</li>
+                </ul>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Power BI</span>
+                    <span class="tech-tag">DAX</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Data Modeling</span>
+                    <span class="tech-tag">Visualization</span>
+                </div>
+            </div>
 
         <!-- Contact Section -->
         <section id="contact">
