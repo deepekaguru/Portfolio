@@ -397,10 +397,13 @@
     <p><strong>Lloyds Bank</strong></p>
     <p class="date">Dec 2020 – May 2022</p>
     <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-      <li>Led development of a GBM-based application fraud model under extreme class imbalance (~0.2% fraud rate), achieving OOT AUC ~0.88 and capturing ~40% of confirmed fraud within the top 5% risk scores.</li>
-      <li>Executed model strategy and tuning using precision–recall trade-offs and multi-vintage OOT validation (3+ vintages), maintaining stable precision at 5% recall.</li>
-      <li>Operationalized and governed the model end-to-end, establishing quarterly monitoring of AUC, precision, recall, and KS (~42) to meet regulatory and model risk management standards.</li>
-    </ul>
+  <li>Led development of a GBM-based application fraud model under extreme class imbalance (~0.2% fraud rate), achieving OOT AUC ~0.88 and capturing ~40% of confirmed fraud within the top 5% risk scores.</li>
+  <li>Executed model strategy and tuning decisions using precision–recall trade-offs and multi-vintage OOT validation (3+ vintages), maintaining stable precision at 5% recall.</li>
+  <li>Operationalized and governed the model end-to-end and established quarterly monitoring of AUC, precision, recall, and KS (~42) to meet regulatory and model risk management standards.</li>
+  <li>Led end-to-end A/B test for Lloyds Bank's Pay & Transfer experience across 3.7M visits (iOS & Android), redesigning key actions above the fold to reduce friction — resulting in +3% CTR lift and +4% increase in product page visits at 95% confidence.</li>
+  <li>Developed REST API scoring infrastructure on Azure ML for real-time churn prediction, integrating with downstream CRM systems to trigger retention workflows for high-risk customers identified above optimized probability threshold.</li>
+  <li>Designed class imbalance diagnostic reporting using SMOTE, undersampling, and cost-sensitive learning experiments across 10+ configurations, documenting precision-recall trade-offs at each fraud capture rate threshold for stakeholder review.</li>
+</ul>
     <div class="tech-stack">
       <span class="tech-tag">Gradient Boosting (GBM)</span>
       <span class="tech-tag">Imbalanced Learning</span>
@@ -414,10 +417,13 @@
     <p><strong>GlaxoSmithKline</strong></p>
     <p class="date">Aug 2018 – Dec 2020</p>
     <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-      <li>Built patient stratification models using Random Forest and XGBoost in Python, identifying distinct patient subgroups with 87% classification accuracy.</li>
-      <li>Constructed predictive models using logistic regression and gradient boosting, forecasting patient responses with 82% accuracy across 15+ studies to support trial success.</li>
-      <li>Engineered 50+ clinical features from disparate data sources, improving model performance and reducing training latency by 47% via automated preprocessing pipelines.</li>
-    </ul>
+  <li>Designed and optimized scalable data pipelines using Python and SQL to process 10M+ healthcare claim records daily, enabling downstream analytics and improving risk stratification accuracy by 15% through efficient data transformation and aggregation logic.</li>
+  <li>Built and deployed end-to-end ETL pipelines using Talend Open Studio and Python on AWS (S3, EC2), handling large-scale structured and semi-structured healthcare data, and increasing data processing capacity by 30% within 6 months via optimized partitioning and parallel execution.</li>
+  <li>Engineered robust data ingestion and transformation workflows for EDI-based claims data (837/835), implementing data validation, schema standardization, and deduplication logic, which improved data quality and reduced processing errors by 30%.</li>
+  <li>Architected and implemented CI/CD pipelines using Jenkins and Kubernetes, enabling automated deployment of containerized data workflows, reducing deployment time by 40% and improving release reliability across environments.</li>
+  <li>Improved pipeline performance through query optimization, indexing strategies, and distributed processing techniques, reducing data latency and ensuring adherence to strict data delivery SLAs.</li>
+  <li>Developed monitoring, logging, and failure-recovery mechanisms for ETL pipelines, enabling proactive issue detection and ensuring high availability and reliability of production data systems.</li>
+</ul>
     <div class="tech-stack">
       <span class="tech-tag">Python</span>
       <span class="tech-tag">Random Forest</span>
@@ -432,10 +438,14 @@
     <p><strong>UnitedHealth Group</strong></p>
     <p class="date">Aug 2016 – Jul 2018</p>
     <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-      <li>Built scalable ETL pipelines processing 10M+ health claim records daily to identify high-risk patients and improve risk stratification accuracy by 15%.</li>
-      <li>Designed and deployed end-to-end ETL workflows using Talend Open Studio on AWS, increasing processing capacity by ~30% through claims standardization.</li>
-      <li>Implemented CI/CD automation using Jenkins and Kubernetes for containerized pipelines, enabling faster detection of fraudulent claims and billing errors.</li>
-    </ul>
+  <li>Built and optimized large-scale batch ETL pipelines using IBM InfoSphere DataStage to ingest and process 5–10M+ telecom CDR records daily, ensuring reliable data availability for customer usage analysis and churn modeling.</li>
+  <li>Designed and implemented end-to-end data pipelines (SFTP ingestion → transformation → staging → data warehouse), incorporating data cleansing, standardization, deduplication, and incremental load strategies to maintain high data quality and consistency.</li>
+  <li>Performed performance tuning across high-volume distributed ETL jobs (parallel processing, partitioning, join optimization), reducing data latency by ~25% within 4 months and improving pipeline throughput.</li>
+  <li>Developed robust error-handling and recovery mechanisms, including job restartability and validation checkpoints, reducing pipeline failures by ~30% and ensuring SLA adherence for daily batch processing.</li>
+  <li>Implemented data validation frameworks (schema checks, record reconciliation, duplicate detection) to ensure accuracy and reliability of downstream analytics and reporting systems.</li>
+  <li>Optimized data warehouse loading strategies and query performance through indexing and efficient schema design, enabling faster access for BI tools (Tableau) and analytics teams.</li>
+  <li>Collaborated with cross-functional teams to define data models, transformation logic, and pipeline requirements, supporting scalable data infrastructure for large-scale telecom operations.</li>
+</ul>
     <div class="tech-stack">
       <span class="tech-tag">ETL</span>
       <span class="tech-tag">Talend</span>
@@ -450,9 +460,14 @@
     <p><strong>Telkomsel</strong></p>
     <p class="date">Mar 2013 – Jul 2016</p>
     <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-      <li>Built and optimized large-scale ETL pipelines using IBM InfoSphere DataStage to process 5–10M+ daily telecom records for customer usage analysis and churn modeling.</li>
-      <li>Performed tuning across high-volume batch jobs, reducing data latency by ~25% and improving accuracy of usage analytics and customer segmentation initiatives.</li>
-    </ul>
+  <li>Built and optimized large-scale batch ETL pipelines using IBM InfoSphere DataStage to ingest and process 5–10M+ telecom CDR records daily, ensuring reliable data availability for customer usage analysis and churn modeling.</li>
+  <li>Designed and implemented end-to-end data pipelines (SFTP ingestion → transformation → staging → data warehouse), incorporating data cleansing, standardization, deduplication, and incremental load strategies to maintain high data quality and consistency.</li>
+  <li>Performed performance tuning across high-volume distributed ETL jobs (parallel processing, partitioning, join optimization), reducing data latency by ~25% within 4 months and improving pipeline throughput.</li>
+  <li>Developed robust error-handling and recovery mechanisms, including job restartability and validation checkpoints, reducing pipeline failures by ~30% and ensuring SLA adherence for daily batch processing.</li>
+  <li>Implemented data validation frameworks (schema checks, record reconciliation, duplicate detection) to ensure accuracy and reliability of downstream analytics and reporting systems.</li>
+  <li>Optimized data warehouse loading strategies and query performance through indexing and efficient schema design, enabling faster access for BI tools (Tableau) and analytics teams.</li>
+  <li>Collaborated with cross-functional teams to define data models, transformation logic, and pipeline requirements, supporting scalable data infrastructure for large-scale telecom operations.</li>
+</ul>
     <div class="tech-stack">
       <span class="tech-tag">IBM DataStage</span>
       <span class="tech-tag">ETL</span>
