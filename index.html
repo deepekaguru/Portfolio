@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepeka Gurunathan - Lead Data Scientist | AI/ML Engineer</title>
+    <title>Deepeka Gurunathan - Data Scientist | AI/ML Engineer</title>
     <style>
-        /* CSS Variables for Theme */
         :root {
             --bg-color: #ffffff;
             --text-color: #333333;
@@ -17,10 +16,8 @@
             --header-bg: #2c3e50;
             --header-text: #ffffff;
             --shadow: rgba(0, 0, 0, 0.1);
-            --code-bg: #f4f4f4;
             --highlight-bg: #e3f2fd;
         }
-
         [data-theme="dark"] {
             --bg-color: #1a1a1a;
             --text-color: #e0e0e0;
@@ -32,287 +29,55 @@
             --header-bg: #1a252f;
             --header-text: #e0e0e0;
             --shadow: rgba(0, 0, 0, 0.4);
-            --code-bg: #2d2d2d;
             --highlight-bg: #1e3a5f;
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        /* Theme Toggle Button */
-        .theme-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: var(--secondary-bg);
-            border: 2px solid var(--border-color);
-            border-radius: 50px;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-size: 24px;
-            z-index: 1000;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px var(--shadow);
-        }
-
-        .theme-toggle:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 12px var(--shadow);
-        }
-
-        /* Header */
-        header {
-            background: var(--header-bg);
-            color: var(--header-text);
-            padding: 2rem 0;
-            text-align: center;
-            transition: background-color 0.3s ease;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 1rem 0;
-            border: 4px solid var(--header-text);
-        }
-
-        /* Navigation */
-        nav {
-            background: var(--secondary-bg);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 999;
-            box-shadow: 0 2px 4px var(--shadow);
-            transition: background-color 0.3s ease;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
-
-        nav a {
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: var(--link-color);
-        }
-
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        /* Sections */
-        section {
-            margin: 3rem 0;
-            padding: 2rem;
-            background: var(--card-bg);
-            border-radius: 8px;
-            box-shadow: 0 2px 8px var(--shadow);
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        section h2 {
-            color: var(--link-color);
-            border-bottom: 3px solid var(--link-color);
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        /* Project Cards */
-        .project {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background: var(--secondary-bg);
-            border-radius: 8px;
-            border-left: 4px solid var(--link-color);
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .project:hover {
-            transform: translateX(5px);
-        }
-
-        .project h3 {
-            color: var(--link-color);
-            margin-bottom: 1rem;
-        }
-
-        .project img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 1rem 0;
-            box-shadow: 0 4px 12px var(--shadow);
-        }
-
-        .project ul {
-            margin-left: 2rem;
-            margin-top: 1rem;
-        }
-
-        .project li {
-            margin: 0.5rem 0;
-        }
-
-        /* Skills & Experience */
-        .experience-item, .education-item {
-            margin: 1.5rem 0;
-            padding: 1rem;
-            background: var(--secondary-bg);
-            border-radius: 6px;
-            transition: background-color 0.3s ease;
-        }
-
-        .experience-item h3, .education-item h3 {
-            color: var(--link-color);
-            margin-bottom: 0.5rem;
-        }
-
-        .date {
-            color: var(--text-color);
-            opacity: 0.7;
-            font-style: italic;
-        }
-
-        /* Links */
-        a {
-            color: var(--link-color);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        a:hover {
-            color: var(--link-hover);
-            text-decoration: underline;
-        }
-
-        /* Contact Badges */
-        .contact-badges {
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .contact-badges img {
-            transition: transform 0.3s ease;
-        }
-
-        .contact-badges img:hover {
-            transform: scale(1.1);
-        }
-
-        /* Back to Top */
-        .back-to-top {
-            text-align: center;
-            margin: 2rem 0;
-            padding: 1rem;
-        }
-
-        .back-to-top a {
-            display: inline-block;
-            padding: 0.8rem 2rem;
-            background: var(--link-color);
-            color: white;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .back-to-top a:hover {
-            background: var(--link-hover);
-            transform: translateY(-2px);
-            text-decoration: none;
-        }
-
-        /* Tech Stack Tags */
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-
-        .tech-tag {
-            background: var(--highlight-bg);
-            padding: 0.3rem 0.8rem;
-            border-radius: 15px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: background-color 0.3s ease;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8rem;
-            }
-
-            nav ul {
-                gap: 1rem;
-            }
-
-            .container {
-                padding: 1rem;
-            }
-
-            section {
-                padding: 1rem;
-            }
-
-            .theme-toggle {
-                top: 10px;
-                right: 10px;
-                padding: 8px 15px;
-                font-size: 20px;
-            }
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: var(--bg-color); color: var(--text-color); transition: background-color 0.3s ease, color 0.3s ease; }
+        .theme-toggle { position: fixed; top: 20px; right: 20px; background: var(--secondary-bg); border: 2px solid var(--border-color); border-radius: 50px; padding: 10px 20px; cursor: pointer; font-size: 24px; z-index: 1000; transition: all 0.3s ease; box-shadow: 0 2px 8px var(--shadow); }
+        .theme-toggle:hover { transform: scale(1.1); }
+        header { background: var(--header-bg); color: var(--header-text); padding: 2rem 0; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; margin: 1rem 0; border: 4px solid var(--header-text); }
+        nav { background: var(--secondary-bg); padding: 1rem 0; position: sticky; top: 0; z-index: 999; box-shadow: 0 2px 4px var(--shadow); }
+        nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; }
+        nav a { color: var(--text-color); text-decoration: none; font-weight: 500; transition: color 0.3s ease; }
+        nav a:hover { color: var(--link-color); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        section { margin: 3rem 0; padding: 2rem; background: var(--card-bg); border-radius: 8px; box-shadow: 0 2px 8px var(--shadow); }
+        section h2 { color: var(--link-color); border-bottom: 3px solid var(--link-color); padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+        .project { margin: 2rem 0; padding: 1.5rem; background: var(--secondary-bg); border-radius: 8px; border-left: 4px solid var(--link-color); transition: transform 0.3s ease; }
+        .project:hover { transform: translateX(5px); }
+        .project h3 { color: var(--link-color); margin-bottom: 1rem; }
+        .project img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; box-shadow: 0 4px 12px var(--shadow); }
+        .project ul { margin-left: 2rem; margin-top: 1rem; }
+        .project li { margin: 0.5rem 0; }
+        .experience-item, .education-item { margin: 1.5rem 0; padding: 1rem; background: var(--secondary-bg); border-radius: 6px; }
+        .experience-item h3, .education-item h3 { color: var(--link-color); margin-bottom: 0.5rem; }
+        .date { color: var(--text-color); opacity: 0.7; font-style: italic; }
+        a { color: var(--link-color); text-decoration: none; transition: color 0.3s ease; }
+        a:hover { color: var(--link-hover); text-decoration: underline; }
+        .contact-badges { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+        .back-to-top { text-align: center; margin: 2rem 0; padding: 1rem; }
+        .back-to-top a { display: inline-block; padding: 0.8rem 2rem; background: var(--link-color); color: white; border-radius: 25px; font-weight: bold; transition: background-color 0.3s ease, transform 0.3s ease; }
+        .back-to-top a:hover { background: var(--link-hover); transform: translateY(-2px); text-decoration: none; }
+        .tech-stack { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+        .tech-tag { background: var(--highlight-bg); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.9rem; font-weight: 500; }
+        .award-item { margin: 1rem 0; padding: 1rem; background: var(--secondary-bg); border-radius: 6px; border-left: 4px solid #f39c12; }
+        @media (max-width: 768px) { header h1 { font-size: 1.8rem; } nav ul { gap: 1rem; } .container { padding: 1rem; } section { padding: 1rem; } }
     </style>
 </head>
 <body>
-    <!-- Theme Toggle Button -->
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
         <span class="sun">☀️</span>
         <span class="moon" style="display: none;">🌙</span>
     </button>
 
-    <!-- Header -->
     <header id="home">
-        <h1>Lead Data Scientist | AI/ML Engineer</h1>
+        <h1>Data Scientist | AI/ML Engineer</h1>
         <img src="https://github.com/deepekaguru/Portfolio/blob/main/profile.png?raw=true" alt="Deepeka Gurunathan" class="profile-img">
         <h2>Deepeka Gurunathan</h2>
     </header>
 
-    <!-- Navigation -->
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -320,531 +85,400 @@
             <li><a href="#education-section">Education</a></li>
             <li><a href="#work-experience">Work Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications & Awards</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content -->
     <div class="container">
-        <!-- About Me Section -->
-<section id="about-me">
-    <h2>About Me</h2>
-    
-    <p style="margin-bottom: 1.5rem;">I'm a Lead Data Scientist who turns complex data into production-ready AI systems that solve real business problems. With over 9 years of experience spanning healthcare, banking, pharma, and telecommunications, I build end-to-end ML solutions—from scalable ETL pipelines and MLOps infrastructure to deployed AI-driven platforms that drive measurable impact.</p>
-    
-    <p style="margin-bottom: 1.5rem;">My expertise lies in bridging the gap between cutting-edge machine learning research and practical, scalable implementations. I've architected analytics platforms that process high-volume datasets, developed production ML models that improve operational efficiency, and built intelligent automation frameworks that enhance decision-making at scale.</p>
-    
-    <p style="margin-bottom: 1.5rem;">Currently pursuing an MS in Advanced Data Analytics (GPA: 4.0) while serving as a Graduate Teaching Assistant and Research Assistant, where I focus on statistical modeling, simulation, and applied AI—including AI-driven automation and intelligent validation frameworks.</p>
-    
-    <p style="margin-bottom: 1.5rem;"><strong>What drives me:</strong> Applying Machine Learning, Generative AI, and scalable AI systems to tackle complex challenges in healthcare analytics, intelligent automation, and data-driven decision platforms.</p>
-    
-    <p><strong>Let's connect</strong> if you're interested in discussing data science, AI applications, or building impactful ML solutions.</p>
-</section>>
 
-        <!-- Education Section -->
+        <!-- About Me -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p style="margin-bottom: 1.5rem;">I'm a Data Scientist and AI/ML Engineer who turns complex data into production-ready AI systems that solve real business problems. With over 9 years of experience spanning healthcare, banking, pharma, and telecommunications, I build end-to-end ML solutions — from scalable ETL pipelines and MLOps infrastructure to deployed GenAI and multi-agent AI architectures that drive measurable impact.</p>
+            <p style="margin-bottom: 1.5rem;">My expertise lies in bridging the gap between cutting-edge machine learning research and practical, scalable implementations. I've architected analytics platforms that process high-volume datasets, developed production ML models that improve operational efficiency, and built intelligent automation frameworks — including RAG systems, knowledge graph recommenders, and multi-agent AI systems.</p>
+            <p style="margin-bottom: 1.5rem;">I recently graduated with an MS in Advanced Data Analytics (GPA: 4.0) from the University of North Texas, where I also served as a Graduate Teaching and Research Assistant, focusing on statistical modeling, simulation, and applied AI research — including a peer-reviewed publication on AI-driven game testing.</p>
+            <p style="margin-bottom: 1.5rem;"><strong>What drives me:</strong> Applying Machine Learning, Generative AI, and scalable AI systems to tackle complex challenges in healthcare analytics, intelligent automation, and data-driven decision platforms.</p>
+            <p><strong>Let's connect</strong> if you're interested in discussing data science, AI applications, or building impactful ML solutions.</p>
+        </section>
+
+        <!-- Education -->
         <section id="education-section">
             <h2>Education</h2>
             <div class="education-item">
                 <h3>MS, Advanced Data Analytics</h3>
                 <p>University of North Texas, Denton</p>
-                <p class="date">Graduating May 2026 | GPA: 4.0</p>
+                <p class="date">May 2026 | GPA: 4.0</p>
             </div>
             <div class="education-item">
-                <h3>Bachelor's of Computer Science and Engineering</h3>
+                <h3>Bachelor of Engineering in Computer Science</h3>
                 <p>Anna University, India</p>
                 <p class="date">June 2012</p>
             </div>
         </section>
 
-        <!-- Work Experience Section -->
-       <!-- Work Experience Section (UPDATED) -->
-<section id="work-experience">
-  <h2>Work Experience</h2>
+        <!-- Work Experience -->
+        <section id="work-experience">
+            <h2>Work Experience</h2>
 
-  <div class="experience-item">
-    <h3>Graduate Teaching Assistant</h3>
-    <p><strong>University of North Texas (UNT)</strong> — Denton, TX</p>
-    <p class="date">Aug 2025 – Present</p>
-    <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-      <li>Mentored 100+ students with research guidance on statistical and machine learning concepts.</li>
-      <li>Evaluated student dropout trends and supported course redesign, contributing to a ~35% reduction in course withdrawals across subsequent cohorts.</li>
-    </ul>
-    <div class="tech-stack">
-      <span class="tech-tag">Teaching</span>
-      <span class="tech-tag">Statistics</span>
-      <span class="tech-tag">Machine Learning</span>
-      <span class="tech-tag">Student Success</span>
-    </div>
-  </div>
+            <div class="experience-item">
+                <h3>Machine Learning Engineer</h3>
+                <p><strong>Community Dreams Foundation</strong> — Remote</p>
+                <p class="date">June 2026 – Present</p>
+                <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
+                    <li>Designing and deploying end-to-end ML pipelines for nonprofit client projects, covering data preprocessing, feature engineering, model training, and evaluation.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">MLOps</span>
+                </div>
+            </div>
 
-  <div class="experience-item">
-    <h3>Research Assistant</h3>
-    <p><strong>University of North Texas (UNT)</strong> — Denton, TX</p>
-    <p class="date">Apr 2025 – Present</p>
-    <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-      <li>Developed an automated game simulation framework using Monte Carlo Tree Search (MCTS), reducing manual playtesting effort by ~75% and enabling evaluation of 10,000+ game scenarios for deck balance.</li>
-      <li>Improved MCTS decision quality using heuristic-based rollout policies, increasing win rate from 48% (random rollouts) to 64% (heuristic rollouts), with parallel execution in Python.</li>
-    </ul>
-    <div class="tech-stack">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">MCTS</span>
-      <span class="tech-tag">Simulation</span>
-      <span class="tech-tag">Parallelization</span>
-    </div>
-  </div>
+            <div class="experience-item">
+                <h3>Graduate Research & Teaching Assistant</h3>
+                <p><strong>University of North Texas (UNT)</strong> — Denton, TX</p>
+                <p class="date">Apr 2025 – May 2026</p>
+                <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
+                    <li>Conducted applied AI research for Guildhouse Games, developing an automated game simulation framework using Monte Carlo Tree Search (MCTS), improving win rate from 48% to 74% with 95% confidence intervals — findings published in the Journal of Behavioral and Applied Management and adopted for pre-release product testing.</li>
+                    <li>Built a parallel execution system capable of processing 10,000+ game scenarios per run, reducing manual playtesting time by 75%.</li>
+                    <li>Mentored 150+ students across 6 graduate courses on Python, ML pipelines, and Tableau/Power BI dashboard development.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">MCTS</span>
+                    <span class="tech-tag">Simulation</span>
+                    <span class="tech-tag">Teaching</span>
+                    <span class="tech-tag">Research</span>
+                </div>
+            </div>
 
-  <div class="experience-item">
-    <h3>Data Scientist</h3>
-    <p><strong>Lloyds Bank</strong></p>
-    <p class="date">Dec 2020 – May 2022</p>
-    <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-  <li>Led development of a GBM-based application fraud model under extreme class imbalance (~0.2% fraud rate), achieving OOT AUC ~0.88 and capturing ~40% of confirmed fraud within the top 5% risk scores.</li>
-  <li>Executed model strategy and tuning decisions using precision–recall trade-offs and multi-vintage OOT validation (3+ vintages), maintaining stable precision at 5% recall.</li>
-  <li>Operationalized and governed the model end-to-end and established quarterly monitoring of AUC, precision, recall, and KS (~42) to meet regulatory and model risk management standards.</li>
-  <li>Led end-to-end A/B test for Lloyds Bank's Pay & Transfer experience across 3.7M visits (iOS & Android), redesigning key actions above the fold to reduce friction — resulting in +3% CTR lift and +4% increase in product page visits at 95% confidence.</li>
-  <li>Developed REST API scoring infrastructure on Azure ML for real-time churn prediction, integrating with downstream CRM systems to trigger retention workflows for high-risk customers identified above optimized probability threshold.</li>
-  <li>Designed class imbalance diagnostic reporting using SMOTE, undersampling, and cost-sensitive learning experiments across 10+ configurations, documenting precision-recall trade-offs at each fraud capture rate threshold for stakeholder review.</li>
-</ul>
-    <div class="tech-stack">
-      <span class="tech-tag">Gradient Boosting (GBM)</span>
-      <span class="tech-tag">Imbalanced Learning</span>
-      <span class="tech-tag">Model Governance</span>
-      <span class="tech-tag">Monitoring</span>
-    </div>
-  </div>
+            <div class="experience-item">
+                <h3>Data Scientist</h3>
+                <p><strong>Lloyds Bank</strong></p>
+                <p class="date">Dec 2020 – May 2022</p>
+                <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
+                    <li>Built a gradient boosting fraud detection model with out-of-time validation across 3+ periods, achieving AUC 0.88 and identifying 40% of confirmed fraud cases within the top 5% risk scores.</li>
+                    <li>Deployed customer churn prediction model with class-weighted training (78% recall) via batch inference pipeline scoring 500K+ customers monthly to prioritize retention campaigns; supported ongoing model monitoring including drift detection in production.</li>
+                    <li>Designed A/B test across 3.7M sessions to evaluate Pay & Transfer redesign, achieving +3% CTR and +4% product engagement (p&lt;0.05), with clean guardrail metrics supporting full rollout.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">Gradient Boosting</span>
+                    <span class="tech-tag">Fraud Detection</span>
+                    <span class="tech-tag">Model Monitoring</span>
+                    <span class="tech-tag">A/B Testing</span>
+                    <span class="tech-tag">Azure ML</span>
+                </div>
+            </div>
 
-  <div class="experience-item">
-    <h3>Analyst, Clinical Data Systems (Data Science)</h3>
-    <p><strong>GlaxoSmithKline</strong></p>
-    <p class="date">Aug 2018 – Dec 2020</p>
-    <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-  <li>Designed and optimized scalable data pipelines using Python and SQL to process 10M+ healthcare claim records daily, enabling downstream analytics and improving risk stratification accuracy by 15% through efficient data transformation and aggregation logic.</li>
-  <li>Built and deployed end-to-end ETL pipelines using Talend Open Studio and Python on AWS (S3, EC2), handling large-scale structured and semi-structured healthcare data, and increasing data processing capacity by 30% within 6 months via optimized partitioning and parallel execution.</li>
-  <li>Engineered robust data ingestion and transformation workflows for EDI-based claims data (837/835), implementing data validation, schema standardization, and deduplication logic, which improved data quality and reduced processing errors by 30%.</li>
-  <li>Architected and implemented CI/CD pipelines using Jenkins and Kubernetes, enabling automated deployment of containerized data workflows, reducing deployment time by 40% and improving release reliability across environments.</li>
-  <li>Improved pipeline performance through query optimization, indexing strategies, and distributed processing techniques, reducing data latency and ensuring adherence to strict data delivery SLAs.</li>
-  <li>Developed monitoring, logging, and failure-recovery mechanisms for ETL pipelines, enabling proactive issue detection and ensuring high availability and reliability of production data systems.</li>
-</ul>
-    <div class="tech-stack">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">Random Forest</span>
-      <span class="tech-tag">XGBoost</span>
-      <span class="tech-tag">Clinical ML</span>
-      <span class="tech-tag">Feature Engineering</span>
-    </div>
-  </div>
+            <div class="experience-item">
+                <h3>Analyst, Clinical Data Systems (Data Science & Analytics)</h3>
+                <p><strong>GlaxoSmithKline</strong></p>
+                <p class="date">Aug 2018 – Dec 2020</p>
+                <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
+                    <li>Built ETL pipelines in Python and SQL to ingest clinical trial data from EDC systems into AWS S3, performing validation and quality checks to reduce data preparation time by 47%.</li>
+                    <li>Engineered 50+ clinical features from disparate data sources, improving model performance while reducing training latency via automated preprocessing pipelines.</li>
+                    <li>Designed an XGBoost regression model to quantify biomarker reduction in confirmed responders (MAE ~10%, R² ~0.78), supporting dose-response analysis for the clinical team.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">XGBoost</span>
+                    <span class="tech-tag">Clinical ML</span>
+                    <span class="tech-tag">AWS S3</span>
+                    <span class="tech-tag">Feature Engineering</span>
+                </div>
+            </div>
 
-  <div class="experience-item">
-    <h3>Data Engineer</h3>
-    <p><strong>UnitedHealth Group</strong></p>
-    <p class="date">Aug 2016 – Jul 2018</p>
-    <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-  <li>Built and optimized large-scale batch ETL pipelines using IBM InfoSphere DataStage to ingest and process 5–10M+ telecom CDR records daily, ensuring reliable data availability for customer usage analysis and churn modeling.</li>
-  <li>Designed and implemented end-to-end data pipelines (SFTP ingestion → transformation → staging → data warehouse), incorporating data cleansing, standardization, deduplication, and incremental load strategies to maintain high data quality and consistency.</li>
-  <li>Performed performance tuning across high-volume distributed ETL jobs (parallel processing, partitioning, join optimization), reducing data latency by ~25% within 4 months and improving pipeline throughput.</li>
-  <li>Developed robust error-handling and recovery mechanisms, including job restartability and validation checkpoints, reducing pipeline failures by ~30% and ensuring SLA adherence for daily batch processing.</li>
-  <li>Implemented data validation frameworks (schema checks, record reconciliation, duplicate detection) to ensure accuracy and reliability of downstream analytics and reporting systems.</li>
-  <li>Optimized data warehouse loading strategies and query performance through indexing and efficient schema design, enabling faster access for BI tools (Tableau) and analytics teams.</li>
-  <li>Collaborated with cross-functional teams to define data models, transformation logic, and pipeline requirements, supporting scalable data infrastructure for large-scale telecom operations.</li>
-</ul>
-    <div class="tech-stack">
-      <span class="tech-tag">ETL</span>
-      <span class="tech-tag">Talend</span>
-      <span class="tech-tag">AWS</span>
-      <span class="tech-tag">Jenkins</span>
-      <span class="tech-tag">Kubernetes</span>
-    </div>
-  </div>
+            <div class="experience-item">
+                <h3>Data Engineer</h3>
+                <p><strong>UnitedHealth Group</strong></p>
+                <p class="date">Aug 2016 – Jul 2018</p>
+                <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
+                    <li>Architected a distributed ETL infrastructure on AWS S3 and Informatica PowerCenter to process 10M+ daily healthcare claims, improving processing throughput by 30% through parallel execution.</li>
+                    <li>Containerized data processing workflows using Docker and Kubernetes with Jenkins CI/CD automation, reducing release cycles by 40% and production failures by 25%.</li>
+                    <li>Developed Power BI dashboards delivering real-time analytics on revenue cycle KPIs, reducing manual reporting cycles by 60%.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Informatica</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Kubernetes</span>
+                    <span class="tech-tag">Power BI</span>
+                </div>
+            </div>
 
-  <div class="experience-item">
-    <h3>ETL Developer</h3>
-    <p><strong>Telkomsel</strong></p>
-    <p class="date">Mar 2013 – Jul 2016</p>
-    <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
-  <li>Built and optimized large-scale batch ETL pipelines using IBM InfoSphere DataStage to ingest and process 5–10M+ telecom CDR records daily, ensuring reliable data availability for customer usage analysis and churn modeling.</li>
-  <li>Designed and implemented end-to-end data pipelines (SFTP ingestion → transformation → staging → data warehouse), incorporating data cleansing, standardization, deduplication, and incremental load strategies to maintain high data quality and consistency.</li>
-  <li>Performed performance tuning across high-volume distributed ETL jobs (parallel processing, partitioning, join optimization), reducing data latency by ~25% within 4 months and improving pipeline throughput.</li>
-  <li>Developed robust error-handling and recovery mechanisms, including job restartability and validation checkpoints, reducing pipeline failures by ~30% and ensuring SLA adherence for daily batch processing.</li>
-  <li>Implemented data validation frameworks (schema checks, record reconciliation, duplicate detection) to ensure accuracy and reliability of downstream analytics and reporting systems.</li>
-  <li>Optimized data warehouse loading strategies and query performance through indexing and efficient schema design, enabling faster access for BI tools (Tableau) and analytics teams.</li>
-  <li>Collaborated with cross-functional teams to define data models, transformation logic, and pipeline requirements, supporting scalable data infrastructure for large-scale telecom operations.</li>
-</ul>
-    <div class="tech-stack">
-      <span class="tech-tag">IBM DataStage</span>
-      <span class="tech-tag">ETL</span>
-      <span class="tech-tag">Batch Processing</span>
-      <span class="tech-tag">Performance Tuning</span>
-    </div>
-  </div>
-</section>
+            <div class="experience-item">
+                <h3>ETL Developer</h3>
+                <p><strong>Telkomsel</strong></p>
+                <p class="date">Mar 2013 – Jul 2016</p>
+                <ul style="margin-left: 1.2rem; margin-top: 0.75rem;">
+                    <li>Engineered high-volume batch ETL pipelines using IBM InfoSphere DataStage to ingest and process 5–10M+ telecom CDR records daily, improving data latency by 25%.</li>
+                    <li>Designed and optimized end-to-end data pipelines implementing data validation, deduplication, and incremental load logic, reducing pipeline failures by 30%.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-tag">IBM DataStage</span>
+                    <span class="tech-tag">ETL</span>
+                    <span class="tech-tag">Batch Processing</span>
+                    <span class="tech-tag">Performance Tuning</span>
+                </div>
+            </div>
+        </section>
 
-        <!-- Projects Section -->
+        <!-- Projects -->
         <section id="projects">
             <h2>Projects</h2>
 
-            <!-- Project 10 -->
+            <!-- Molecular Intel Agent -->
+            <div class="project">
+                <h3>13. Molecular Intel Agent — Multi-Agent Precision Oncology AI</h3>
+                <p>Built a 5-agent production AI system for precision oncology treatment recommendations. The system chains a ChromaDB RAG retrieval agent, a Neo4j knowledge graph agent for molecular pathway traversal, a GPT-4o reasoning agent, an XGBoost treatment ranking agent, and a clinical safety agent enforcing HITL approval, prompt injection detection, and PII masking. Agent interaction logs are stored in Neo4j for continuous model improvement. Deployed live on GCP with a real-time Streamlit dashboard.</p>
+                <p style="margin-top: 0.5rem;"><a href="https://github.com/deepekaguru/molecular-intel-agent" target="_blank">GitHub Repository</a></p>
+                <div class="tech-stack">
+                    <span class="tech-tag">GPT-4o</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">LangGraph</span>
+                    <span class="tech-tag">Neo4j</span>
+                    <span class="tech-tag">ChromaDB RAG</span>
+                    <span class="tech-tag">XGBoost</span>
+                    <span class="tech-tag">GCP</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">FastAPI</span>
+                </div>
+            </div>
+
+            <!-- Autonomous Dealership Strategist -->
+            <div class="project">
+                <h3>12. Autonomous Dealership Strategist — n8n Agentic Automation</h3>
+                <p>Built an autonomous inventory management system for car dealerships orchestrated entirely in n8n. The workflow pulls live market demand signals from external APIs (FRED and pricing data sources), routes them through an LLM reasoning layer that evaluates inventory positioning, queries a PostgreSQL database for current stock, and automatically triggers email alerts with recommended actions — all running without manual intervention.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">n8n</span>
+                    <span class="tech-tag">LLM</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">Workflow Automation</span>
+                </div>
+            </div>
+
+            <!-- American Airlines -->
+            <div class="project">
+                <h3>11. Sequence Spoilage Risk Analysis — Major U.S. Airline</h3>
+                <p>Developed an XGBoost sequence spoilage prediction model for pilot training operations, engineering features from Snowflake data pipelines and applying TF-IDF NLP extraction, achieving 73% AUC and 61% precision for proactive intervention. Also explored GenAI-based text classification using embeddings to categorize operational comments, navigating challenges of sparse training data.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">XGBoost</span>
+                    <span class="tech-tag">Snowflake</span>
+                    <span class="tech-tag">TF-IDF</span>
+                    <span class="tech-tag">NLP</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Embeddings</span>
+                </div>
+            </div>
+
+            <!-- Agentic AI Clinical Trial -->
             <div class="project">
                 <h3>10. Agentic AI - Clinical Trial Research Agent</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Medical-research-agent.png" alt="Clinical Trial Research Agent">
-                
                 <p><strong>Key Highlights:</strong></p>
                 <ul>
-                    <li><strong>Local Execution:</strong> Runs entirely on-device (via Ollama) to ensure 100% data privacy—a critical requirement for healthcare applications.</li>
-                    <li><strong>Stateful Orchestration:</strong> Utilizes LangGraph to manage complex cycles between reasoning, tool usage (API calls), and safety verification.</li>
+                    <li><strong>Local Execution:</strong> Runs entirely on-device (via Ollama) to ensure 100% data privacy.</li>
+                    <li><strong>Stateful Orchestration:</strong> Utilizes LangGraph to manage complex cycles between reasoning, tool usage, and safety verification.</li>
                     <li><strong>Built-in Safety:</strong> Features an integrated Safety Node that detects high-risk medical queries and automatically appends regulatory disclaimers.</li>
-                    <li><strong>Interactive Dashboard:</strong> A custom Streamlit UI that provides clickable links to official NIH study records and live status tracking of the agent's "thinking" process.</li>
+                    <li><strong>Interactive Dashboard:</strong> A custom Streamlit UI with clickable links to official NIH study records and live status tracking.</li>
                 </ul>
-                
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">LangGraph</span>
                     <span class="tech-tag">Llama 3.2 (Ollama)</span>
                     <span class="tech-tag">Streamlit</span>
                     <span class="tech-tag">ClinicalTrials.gov API</span>
-                    <span class="tech-tag">Custom CSS</span>
                 </div>
             </div>
-            <!-- Project 9 -->
+
+            <!-- Fintech Debt Companion -->
             <div class="project">
-    <h3>9.Fintech Debt Companion: Multi-Agent Financial RAG (LangGraph DAG)</h3>
+                <h3>9. Fintech Debt Companion: Multi-Agent Financial RAG (LangGraph DAG)</h3>
+                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/fintech-debt-companion.png" alt="Fintech Debt Companion">
+                <p>Built an Agentic AI financial advisor to automate debt analysis and market benchmarking using a directed acyclic graph (DAG) to manage state across specialized agents for extraction, market research, and behavioral nudging.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">LangGraph</span>
+                    <span class="tech-tag">Multi-Agent</span>
+                    <span class="tech-tag">RAG</span>
+                    <span class="tech-tag">Pydantic</span>
+                    <span class="tech-tag">CFPB Market Data</span>
+                </div>
+            </div>
 
-    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/fintech-debt-companion.png"
-         alt="Fintech Debt Companion - Multi-Agent Financial RAG">
-
-    <p>
-        Built an Agentic AI financial advisor to automate debt analysis and market benchmarking.
-        Unlike standard RAG systems, this solution uses a directed acyclic graph (DAG) to manage state across specialized agents
-        for extraction, market research, and behavioral nudging.
-    </p>
-
-    <p><strong>Key Engineering Highlights:</strong></p>
-    <ul>
-        <li><strong>Stateful Orchestration:</strong> Implemented with LangGraph to manage multi-turn financial conversations while maintaining a consistent <code>AgentState</code>.</li>
-        <li><strong>Market-Aware RAG:</strong> Built a deterministic retrieval pipeline that extracts APR benchmarks from the <strong>2025 CFPB Market Report</strong>.</li>
-        <li><strong>Separation of Concerns:</strong> Isolated mathematical logic (Snowball/Avalanche payoff plans) into Python tools to prevent LLM hallucinations.</li>
-        <li><strong>Production Readiness:</strong> Secured configuration via <code>.env</code> and enforced structured <strong>Pydantic</strong> validation for all extracted fields.</li>
-    </ul>
-    <div class="tech-stack">
-        <span class="tech-tag">Python</span>
-        <span class="tech-tag">LangGraph</span>
-        <span class="tech-tag">Multi-Agent</span>
-        <span class="tech-tag">RAG</span>
-        <span class="tech-tag">Pandas</span>
-        <span class="tech-tag">Pydantic</span>
-        <span class="tech-tag">dotenv</span>
-        <span class="tech-tag">CFPB Market Data</span>
-    </div>
-</div>
-            
-
-            <!-- Project 8 -->
+            <!-- Fraud Investigation Copilot -->
             <div class="project">
-    <h3>8. Fraud Investigation Copilot — LangChain + FastAPI (RAG + Similar Case Retrieval)</h3>
-    <!-- Replace with your image URL -->
-    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/fraud-investigation-copilot.png"
-         alt="Fraud Investigation Copilot - LangChain + FastAPI">
+                <h3>8. Fraud Investigation Copilot — LangChain + FastAPI (RAG + Similar Case Retrieval)</h3>
+                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/fraud-investigation-copilot.png" alt="Fraud Investigation Copilot">
+                <p>Built an AI-powered fraud investigation copilot that explains why a transaction was flagged using policy rule RAG, similar historical fraud cases, and a production-style FastAPI endpoint returning structured JSON for audit and analyst workflows.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">RAG</span>
+                    <span class="tech-tag">Chroma</span>
+                    <span class="tech-tag">OpenAI Embeddings</span>
+                </div>
+            </div>
 
-    <p>
-        Built an AI-powered fraud investigation copilot that explains why a transaction was flagged using:
-        <strong>policy rule RAG</strong>, <strong>similar historical fraud cases</strong>, and a production-style
-        <strong>FastAPI</strong> endpoint that returns structured JSON for audit and analyst workflows.
-    </p>
-
-    <p><strong>Policy Ingestion:</strong></p>
-    <ul>
-        <li>Ingested <code>.txt</code> policy files from <code>data/policies/</code></li>
-        <li>Chunked using <code>RecursiveCharacterTextSplitter</code></li>
-        <li>Embedded using <code>OpenAIEmbeddings</code> and stored in Chroma (<code>vectorstore/policies</code>)</li>
-    </ul>
-
-    <p><strong>Fraud Case Ingestion:</strong></p>
-    <ul>
-        <li>Loaded <code>creditcard.csv</code> from <code>data/credit/</code> and filtered <code>Class == 1</code> (confirmed fraud)</li>
-        <li>Converted each row to a concise text summary</li>
-        <li>Embedded and stored in a separate Chroma store (<code>vectorstore/fraud_cases</code>)</li>
-    </ul>
-
-    <p><strong>Inference Flow (<code>POST /explain</code>):</strong></p>
-    <ul>
-        <li>Receive transaction JSON</li>
-        <li>Use policy RAG to determine applicable rules and generate explanation</li>
-        <li>Retrieve similar historical fraud cases</li>
-        <li>Extract rule IDs (e.g., <code>AML-TRX-001</code>) using regex</li>
-        <li>Return structured JSON: decision + explanation + rules + similar cases</li>
-    </ul>
-
-    <p><strong>Tech Stack:</strong> Python, FastAPI, LangChain, Chroma, Pandas, python-dotenv, OpenAPI/Swagger.</p>
-
-    <div class="tech-stack">
-        <span class="tech-tag">Python</span>
-        <span class="tech-tag">FastAPI</span>
-        <span class="tech-tag">LangChain</span>
-        <span class="tech-tag">RAG</span>
-        <span class="tech-tag">Chroma</span>
-        <span class="tech-tag">OpenAI Embeddings</span>
-        <span class="tech-tag">OpenAPI</span>
-    </div>
-</div>
-
-            <!-- Project 7 -->
+            <!-- Automobile Price -->
             <div class="project">
-    <h3>7. Automobile Price Prediction Service — End-to-End ML Pipeline (Azure ML Studio)</h3>
-    <!-- Replace with your image URL -->
-    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/azure-automobile-price.png"
-         alt="Automobile Price Prediction - Azure ML Studio Pipeline">
+                <h3>7. Automobile Price Prediction Service — End-to-End ML Pipeline (Azure ML Studio)</h3>
+                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/azure-automobile-price.png" alt="Automobile Price Prediction">
+                <p>Built a production-ready machine learning pipeline in Azure ML Studio to predict vehicle market prices, deployed as a REST endpoint enabling real-time inference via JSON.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Azure ML Studio</span>
+                    <span class="tech-tag">SDK v2</span>
+                    <span class="tech-tag">Managed Online Endpoint</span>
+                    <span class="tech-tag">Regression</span>
+                    <span class="tech-tag">REST API</span>
+                </div>
+            </div>
 
-    <p>
-        Built a production-ready machine learning pipeline in <strong>Azure Machine Learning Studio</strong> to predict
-        vehicle market prices from technical specifications, enabling scalable inventory valuation for automotive retail.
-    </p>
-
-    <p><strong>Tech Stack &amp; Infrastructure:</strong></p>
-    <ul>
-        <li><strong>Platform:</strong> Azure Machine Learning Studio (SDK v2)</li>
-        <li><strong>Deployment:</strong> Managed Online Endpoint (real-time inference)</li>
-    </ul>
-
-    <p><strong>Pipeline Architecture:</strong></p>
-    <ul>
-        <li><strong>Data Ingestion:</strong> Automobile price dataset (raw)</li>
-        <li><strong>Data Preprocessing:</strong> Missing value handling; normalization for numeric features (e.g., horsepower, peak-rpm)</li>
-        <li><strong>Feature Transformation:</strong> Custom Python script to rename and isolate <code>predicted_price</code> from scored labels for business readability</li>
-        <li><strong>Training:</strong> Linear Regression trained on 70% of the dataset</li>
-        <li><strong>Evaluation:</strong> Mean Absolute Error (MAE) and R-squared</li>
-    </ul>
-
-    <p><strong>Deployment:</strong> Deployed as a REST endpoint in <code>eastus2</code>, allowing external applications to send vehicle data via JSON and receive instant price predictions.</p>
-
-    <div class="tech-stack">
-        <span class="tech-tag">Azure ML Studio</span>
-        <span class="tech-tag">SDK v2</span>
-        <span class="tech-tag">Managed Online Endpoint</span>
-        <span class="tech-tag">Regression</span>
-        <span class="tech-tag">MAE</span>
-        <span class="tech-tag">R²</span>
-        <span class="tech-tag">REST API</span>
-    </div>
-</div>
-            
-            <!-- Project 6 -->
+            <!-- Kidney CT -->
             <div class="project">
-    <h3>6. Kidney CT Image Classification — PyTorch + EfficientNet (Transfer Learning)</h3>
-    <!-- Replace with your image URL -->
-    <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/kidney-ct-classification.png"
-         alt="Kidney CT Image Classification - PyTorch EfficientNet">
+                <h3>6. Kidney CT Image Classification — PyTorch + EfficientNet (Transfer Learning)</h3>
+                <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/kidney-ct-classification.png" alt="Kidney CT Classification">
+                <p>Built a clinically meaningful image classification system for kidney CT scans (Normal, Cyst, Stone, Tumor) using transfer learning and class-imbalance aware training. Results: Overall Accuracy ~97%, Tumor Recall ~96%, Macro F1-score ~96%.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">EfficientNet</span>
+                    <span class="tech-tag">Transfer Learning</span>
+                    <span class="tech-tag">Class Weights</span>
+                </div>
+            </div>
 
-    <p>
-        Built a clinically meaningful image classification system to classify kidney CT scan images into four classes:
-        <strong>Normal</strong>, <strong>Cyst</strong>, <strong>Stone</strong>, and <strong>Tumor</strong>. The approach uses transfer learning and
-        class-imbalance aware training with robust evaluation.
-    </p>
-
-    <p><strong>Approach &amp; Methodology:</strong></p>
-    <ul>
-        <li><strong>Preprocessing:</strong> Resized to 224×224; normalization using ImageNet mean/std</li>
-        <li><strong>Augmentation:</strong> Rotation + affine transforms applied only to training data (no augmentation on validation/test)</li>
-        <li><strong>Split:</strong> Train 70% / Validation 15% / Test 15%</li>
-        <li><strong>Model:</strong> EfficientNet backbone pretrained on ImageNet + custom 4-class head</li>
-        <li><strong>Two-Phase Training:</strong> (1) Train classifier head with frozen backbone (2) Fine-tune last backbone layers with lower LR</li>
-        <li><strong>Class Imbalance:</strong> Class-weighted <code>CrossEntropyLoss</code> to improve minority-class recall</li>
-    </ul>
-
-    <p><strong>Evaluation Focus:</strong> per-class recall (especially Tumor), macro F1-score, precision, confusion matrix (accuracy used as secondary).</p>
-
-    <p><strong>Results Summary:</strong> Overall Accuracy ~97%, Tumor Recall ~96%, Macro F1-score ~96%.</p>
-
-    <div class="tech-stack">
-        <span class="tech-tag">Python</span>
-        <span class="tech-tag">PyTorch</span>
-        <span class="tech-tag">Torchvision</span>
-        <span class="tech-tag">EfficientNet</span>
-        <span class="tech-tag">Transfer Learning</span>
-        <span class="tech-tag">Class Weights</span>
-        <span class="tech-tag">Confusion Matrix</span>
-    </div>
-</div>
-
-            <!-- Project 5 -->
+            <!-- Retail Sales Tax -->
             <div class="project">
                 <h3>5. Retail Sales Tax Forecasting - Machine Learning</h3>
                 <img src="https://github.com/user-attachments/assets/5281054d-8adc-48b6-858d-af55beb9c671?raw=true" alt="Retail Sales Tax Forecasting">
-                
-                <p>Developed an interactive forecasting tool using Facebook Prophet to predict quarterly retail sales tax revenue across Iowa cities and counties. The app was built with Streamlit and enables users to select a location, define forecast horizons (1–8 quarters), and visualize trends using dynamic charts.</p>
-                
-                <p><strong>Key Highlights:</strong></p>
-                <ul>
-                    <li>Implemented time series modeling with Prophet, fine-tuned for quarterly seasonality</li>
-                    <li>Calculated evaluation metrics including MAPE, MAE, RMSE, and R²</li>
-                    <li>Designed a user-friendly interface with Streamlit, supporting tooltip guidance and data filtering</li>
-                    <li>Deployed the interactive app on Streamlit Community Cloud with shareable forecasting visualizations</li>
-                </ul>
-                
+                <p>Developed an interactive forecasting tool using Facebook Prophet to predict quarterly retail sales tax revenue across Iowa cities and counties, deployed on Streamlit Community Cloud.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">Streamlit</span>
                     <span class="tech-tag">Facebook Prophet</span>
-                    <span class="tech-tag">Pandas</span>
-                    <span class="tech-tag">Matplotlib</span>
-                    <span class="tech-tag">Plotly</span>
-                    <span class="tech-tag">Scikit-learn</span>
+                    <span class="tech-tag">Time Series</span>
                 </div>
             </div>
 
-
-            <!-- Project 4 -->
+            <!-- Hospital Dashboard -->
             <div class="project">
                 <h3>4. Hospital Performance Dashboard - Power BI</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Hospital-Dashboard.png" alt="Hospital Performance Dashboard">
-                
-                <ul>
-                    <li>Designed and built an interactive hospital analytics dashboard using Power BI, providing insights into admissions, bed occupancy, and rejection trends of claims.</li>
-                    <li>Optimized various DAX measures and Power Query transformations, including randomized patient IDs, age group categorization, and peak-hour designation.</li>
-                    <li>Improved bed occupancy reporting by removing flawed calculations to yield hospital resource utilization real-time monitoring.</li>
-                    <li>Processed claim denial patterns by insurance providers, establishing high-rejection carriers and emergency and urgent care admission trends.</li>
-                    <li>Combined financial analyses, presenting insurance-paid funds vs. patient out-of-pocket costs, facilitating hospital billing and revenue analysis.</li>
-                </ul>
-                
+                <p>Designed and built an interactive hospital analytics dashboard using Power BI, providing insights into admissions, bed occupancy, claim rejection trends, and financial analysis across insurance providers.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Power BI</span>
                     <span class="tech-tag">DAX</span>
                     <span class="tech-tag">Power Query</span>
-                    <span class="tech-tag">Data Visualization</span>
                     <span class="tech-tag">Healthcare Analytics</span>
                 </div>
             </div>
 
-            
-        <!-- Project 3 -->
-<div class="project">
+            <!-- DrugInfoGen -->
+            <div class="project">
                 <h3>3. DrugInfoGen – AI-Powered Drug Information Assistant</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/DrugInfoGen.png" alt="DrugInfoGen">
-                
-                <p>Built an interactive Streamlit application that generates human-readable drug information based on user-input drug names or selected health conditions. The app uses OpenAI's GPT-4 model to return structured details including usage, side effects, precautions, and summaries in markdown format.</p>
-                
-                <p><strong>Key Highlights:</strong></p>
-                <ul>
-                    <li>Integrated OpenAI's LLM to dynamically generate concise, patient-friendly medication details</li>
-                    <li>Designed dual search modes: by drug name (typed input) and by condition (dropdown)</li>
-                    <li>Used regex logic to extract and display markdown content into expandable Streamlit sections</li>
-                    <li>Applied custom theming and CSS for a polished medical assistant-style user experience</li>
-                    <li>Secured API key management with .env, and prepared app for deployment on Streamlit Cloud</li>
-                </ul>
-                
+                <p>Built an interactive Streamlit application that generates human-readable drug information using OpenAI's GPT-4, with dual search modes by drug name and health condition.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">Streamlit</span>
                     <span class="tech-tag">OpenAI API (GPT-4)</span>
-                    <span class="tech-tag">Regex</span>
-                    <span class="tech-tag">dotenv</span>
-                    <span class="tech-tag">Git</span>
                 </div>
             </div>
 
-<!-- Project 2 -->
- <div class="project">
+            <!-- Personal Financial Dashboard -->
+            <div class="project">
                 <h3>2. Personal Financial Dashboard - Microsoft Excel</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Finance.png" alt="Personal Financial Dashboard">
-                
-                <ul>
-                    <li>Created and optimized Pivot Tables and Pivot Charts, incorporating slicers for month-wise and category-wise filtering to enhance user experience.</li>
-                    <li>Implemented dynamic calculations for Total Net Worth, Income Goal Progress, and Expense Tracking, leveraging advanced Excel functions and automated data aggregation.</li>
-                    <li>Developed KPI tracking metrics, identifying max and min expenses, ensuring better financial decision-making and cost control.</li>
-                    <li>Integrated income vs. expenses trend analysis through dual-line charts, enabling comparison of financial inflows and outflows.</li>
-                    <li>Applied conditional formatting for highlighting overdue bills, spending patterns, and financial progress insights in real-time.</li>
-                    <li>Suggested improvements, including automated debt tracking, forecasting financial trends, and enhanced data validation mechanisms for accurate financial planning.</li>
-                </ul>
-                
+                <p>Created an advanced Excel dashboard with Pivot Tables, dynamic KPI calculations for Total Net Worth and Expense Tracking, and conditional formatting for real-time financial insights.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Excel</span>
                     <span class="tech-tag">Pivot Tables</span>
-                    <span class="tech-tag">Data Visualization</span>
                     <span class="tech-tag">Financial Analytics</span>
-                    <span class="tech-tag">Dashboard Design</span>
                 </div>
             </div>
-        </section>
 
-<!-- Project 1 -->
-<div class="project">
+            <!-- Business Analytics Dashboard -->
+            <div class="project">
                 <h3>1. Integrated Business Analytics Dashboard (PostgreSQL + Power BI)</h3>
                 <img src="https://raw.githubusercontent.com/deepekaguru/Portfolio/main/Postgresql_project.png" alt="Business Analytics Dashboard">
-                
-                <p>Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing.</p>
-                
-                <p><strong>Key Highlights:</strong></p>
-                <ul>
-                    <li>Developed normalized relational schema in PostgreSQL with sales, products, employees, departments, and campaign data.</li>
-                    <li>Built Power BI connection via Npgsql for live data import and created measures using DAX for KPIs such as Total Revenue, ROI %, Average Transaction Value, Fraud Rate %, and Department Salary Analysis.</li>
-                    <li>Designed interactive visuals including bar charts, line trends, donut charts, and KPIs to track product sales, employee performance, and fraud patterns.</li>
-                    <li>Applied data storytelling principles to highlight key insights such as top-performing products, salary variance across departments, and monthly revenue fluctuations.</li>
-                    <li>Delivered a professional end-to-end workflow: database design → data modeling → visualization → insight generation.</li>
-                </ul>
-                
+                <p>Designed and implemented an interactive Business Analytics dashboard using PostgreSQL and Power BI to analyze multi-domain business performance across sales, HR, and marketing with live data connection via Npgsql.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">PostgreSQL</span>
                     <span class="tech-tag">Power BI</span>
                     <span class="tech-tag">DAX</span>
                     <span class="tech-tag">SQL</span>
                     <span class="tech-tag">Data Modeling</span>
-                    <span class="tech-tag">Visualization</span>
                 </div>
             </div>
+        </section>
 
-        <!-- Contact Section -->
+        <!-- Publications & Awards -->
+        <section id="publications">
+            <h2>Publications & Awards</h2>
+
+            <div class="award-item">
+                <h3>🏆 First Prize — AI in Action Research Competition</h3>
+                <p>University of North Texas, 2025</p>
+                <p>Award-winning research on AI-driven game testing using Monte Carlo Tree Search for Guildhouse Games.</p>
+            </div>
+
+            <div class="award-item">
+                <h3>📄 Peer-Reviewed Publication</h3>
+                <p>Penn, S., Gurunathan, D. (2025). <em>Improving Product Testing with the Use of Artificial Intelligence for a Card Game Company.</em> Journal of Behavioral and Applied Management.</p>
+                <p>Research adopted by Guildhouse Games for pre-release card deck balance testing.</p>
+            </div>
+
+            <div class="award-item">
+                <h3>📊 Research Poster</h3>
+                <p>Forecasting Hunger Trends Across the United States — UNT Scholarly Works, 2025</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
         <section id="contact">
             <h2>Contact</h2>
             <div class="contact-badges">
-                <p><strong>E-mail:</strong> <a href="/cdn-cgi/l/email-protection#4602232336232d27213334332827322e272806212b272f2a6825292b"><span class="__cf_email__" data-cfemail="db9fbebeabbeb0babcaea9aeb5baafb3bab59bbcb6bab2b7f5b8b4b6">[email&#160;protected]</span></a></p>
+                <p><strong>E-mail:</strong> <a href="mailto:deepekagurunathan@gmail.com">deepekagurunathan@gmail.com</a></p>
                 <a href="https://www.linkedin.com/in/deepeka-gurunathan/" target="_blank">
                     <img src="https://img.shields.io/badge/LinkedIn-Deepeka_Gurunathan-blue?style=flat&logo=linkedin" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/deepekaguru" target="_blank">
+                    <img src="https://img.shields.io/badge/GitHub-deepekaguru-black?style=flat&logo=github" alt="GitHub">
                 </a>
             </div>
         </section>
 
-        <!-- Back to Top -->
         <div class="back-to-top">
             <a href="#home">Back To Top</a>
         </div>
     </div>
 
-    <!-- JavaScript for Theme Toggle -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-        // Theme toggle functionality
+    <script>
         const themeToggle = document.getElementById('theme-toggle');
         const html = document.documentElement;
         const sunIcon = document.querySelector('.sun');
         const moonIcon = document.querySelector('.moon');
-
-        // Check for saved theme preference or default to light mode
         const currentTheme = localStorage.getItem('theme') || 'light';
         html.setAttribute('data-theme', currentTheme);
-
-        // Update icon based on current theme
-        if (currentTheme === 'dark') {
-            sunIcon.style.display = 'none';
-            moonIcon.style.display = 'inline';
-        }
-
-        // Toggle theme on button click
+        if (currentTheme === 'dark') { sunIcon.style.display = 'none'; moonIcon.style.display = 'inline'; }
         themeToggle.addEventListener('click', () => {
-            const currentTheme = html.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            
+            const current = html.getAttribute('data-theme');
+            const newTheme = current === 'light' ? 'dark' : 'light';
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            
-            // Toggle icons
-            if (newTheme === 'dark') {
-                sunIcon.style.display = 'none';
-                moonIcon.style.display = 'inline';
-            } else {
-                sunIcon.style.display = 'inline';
-                moonIcon.style.display = 'none';
-            }
+            if (newTheme === 'dark') { sunIcon.style.display = 'none'; moonIcon.style.display = 'inline'; }
+            else { sunIcon.style.display = 'inline'; moonIcon.style.display = 'none'; }
         });
-
-        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'))
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
