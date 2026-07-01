@@ -36,9 +36,10 @@ html{scroll-behavior:smooth}
 body{font-family:var(--font);background:#e8e6f8;color:var(--text);line-height:1.6;overflow-x:hidden;display:flex;justify-content:center}
 .page-wrapper{width:100%;max-width:1400px;background:var(--bg);border:1px solid var(--border2);box-shadow:0 0 40px rgba(108,86,240,0.08);overflow:hidden;position:relative}
 a{color:inherit;text-decoration:none}
+.section-divider{height:1px;background:linear-gradient(90deg,transparent,var(--border2),transparent);margin:0}
 
 /* NAV */
-nav{position:sticky;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 56px;height:62px;background:rgba(248,247,255,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);box-shadow:0 1px 8px rgba(108,86,240,0.06)}
+nav{position:sticky;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 40px;height:52px;background:rgba(248,247,255,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);box-shadow:0 1px 8px rgba(108,86,240,0.06)}
 .nav-social{display:flex;align-items:center;gap:14px}
 .social-icon{color:var(--text3);transition:color 0.2s;display:flex;align-items:center}
 .social-icon:hover{color:var(--purple)}
@@ -60,12 +61,12 @@ nav{position:sticky;top:0;left:0;right:0;z-index:100;display:flex;align-items:ce
 .nav-links a:hover{color:var(--purple)}
 
 /* HERO */
-#home{display:flex;align-items:center;padding:100px 56px 60px;background:var(--bg)}
+#home{display:flex;align-items:center;padding:80px 48px 40px;background:var(--bg)}
 .hero-grid{max-width:860px;margin:0 auto;width:100%;text-align:center}
-h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:14px;color:var(--text)}
-.hero-role{font-size:clamp(1rem,2.2vw,1.25rem);font-weight:400;color:var(--text2);margin-bottom:24px;text-align:center}
+h1{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:10px;color:var(--text)}
+.hero-role{font-size:clamp(0.95rem,2vw,1.1rem);font-weight:400;color:var(--text2);margin-bottom:14px;text-align:center}
 .hero-role span{color:var(--purple);font-weight:600}
-.hero-bio{font-size:0.93rem;color:var(--text2);line-height:1.8;margin-bottom:32px;text-align:center}
+.hero-bio{font-size:0.88rem;color:var(--text2);line-height:1.7;margin-bottom:18px;text-align:center}
 
 
 
@@ -77,9 +78,9 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 
 .section-inner{max-width:1100px;margin:0 auto}
 /* SKILLS */
-#about{background:var(--bg2);padding:72px 56px}
-.skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
-.skill-card{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:22px;transition:border-color 0.2s,box-shadow 0.2s}
+#about{background:#ffffff;padding:64px 48px}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.skill-card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:16px;transition:border-color 0.2s,box-shadow 0.2s}
 .skill-card:hover{border-color:var(--purple-mid);box-shadow:var(--shadow)}
 .skill-card-title{font-size:0.72rem;font-weight:700;color:var(--purple);letter-spacing:0.08em;margin-bottom:14px;text-transform:uppercase}
 .skill-tags{display:flex;flex-wrap:wrap;gap:6px}
@@ -88,15 +89,15 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 
 /* PROJECTS */
 #projects{background:var(--bg);padding:48px 56px}
-.row-section{margin-bottom:20px}
+.row-section{margin-bottom:14px}
 .row-label{font-size:0.72rem;font-weight:700;color:var(--text2);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:12px}
 .row-label::after{content:'';flex:1;height:1px;background:var(--border)}
 .scroll-row{display:flex;gap:16px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--border2) transparent}
 .scroll-row::-webkit-scrollbar{height:3px}
 .scroll-row::-webkit-scrollbar-thumb{background:var(--border2);border-radius:4px}
-.pcard{flex:0 0 282px;scroll-snap-align:start;background:var(--bg2);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:border-color 0.2s,transform 0.2s,box-shadow 0.2s;display:flex;flex-direction:column}
+.pcard{background:var(--bg2);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:border-color 0.2s,transform 0.2s,box-shadow 0.2s;display:flex;flex-direction:column}
 .pcard:hover{border-color:var(--purple-mid);transform:translateY(-3px);box-shadow:var(--shadow-lg)}
-.pcard.wide{flex:0 0 350px}
+.pcard.wide{}
 .pcard-thumb{height:90px;display:flex;align-items:center;justify-content:center;font-size:2.2rem;position:relative;overflow:hidden}
 .pcard-body{padding:12px;display:flex;flex-direction:column;flex:1}
 .pcard-title{font-size:0.86rem;font-weight:700;color:var(--text);margin-bottom:7px;line-height:1.35}
@@ -112,9 +113,9 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 .pa-paper{background:var(--amber-light);color:var(--amber);border:1px solid #fde68a}
 
 /* EXPERIENCE */
-#experience{background:var(--bg2);padding:72px 56px}
+#experience{background:#ffffff;padding:64px 48px}
 .exp-list{display:flex;flex-direction:column}
-.exp-item{display:grid;grid-template-columns:160px 1fr;gap:0 44px;padding:40px 0;border-bottom:1px solid var(--border)}
+.exp-item{display:grid;grid-template-columns:140px 1fr;gap:0 32px;padding:24px 0;border-bottom:1px solid var(--border)}
 .exp-item:first-child{padding-top:0}
 .exp-item:last-child{border-bottom:none}
 .exp-meta{padding-top:3px}
@@ -129,9 +130,9 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 .exp-chip{font-size:0.67rem;padding:3px 8px;background:var(--purple-light);color:var(--purple);border-radius:5px;font-family:var(--mono);font-weight:500}
 
 /* PUBLICATIONS */
-#publications{background:var(--bg);padding:72px 56px}
-.pub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
-.pub-card{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:22px;transition:border-color 0.2s,box-shadow 0.2s;position:relative;overflow:hidden}
+#publications{background:var(--bg);padding:64px 48px}
+.pub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.pub-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px;transition:border-color 0.2s,box-shadow 0.2s;position:relative;overflow:hidden}
 .pub-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
 .pub-card.award::before{background:linear-gradient(90deg,#f59e0b,#fbbf24)}
 .pub-card.journal::before{background:linear-gradient(90deg,var(--purple),#a78bfa)}
@@ -150,8 +151,8 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 .pub-link:hover{background:var(--purple-mid)}
 
 /* AWARD SPOTLIGHT */
-.award-spotlight{background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 100%);border:2px solid #fde68a;border-radius:16px;padding:28px 32px;margin-bottom:44px;display:flex;align-items:center;gap:24px}
-.award-medal{font-size:3rem;flex-shrink:0}
+.award-spotlight{background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 100%);border:2px solid #fde68a;border-radius:12px;padding:18px 22px;margin-bottom:24px;display:flex;align-items:center;gap:16px}
+.award-medal{font-size:2rem;flex-shrink:0}
 .award-text h3{font-size:1.1rem;font-weight:700;color:var(--text);margin-bottom:4px}
 .award-text p{font-size:0.85rem;color:var(--text2);line-height:1.6;margin-bottom:10px}
 .award-link{display:inline-flex;align-items:center;gap:6px;font-size:0.8rem;font-weight:600;color:var(--amber);background:#fff;border:1px solid #fde68a;padding:7px 16px;border-radius:7px;transition:background 0.15s}
@@ -160,7 +161,7 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 /* EDUCATION */
 #education{background:var(--bg2)}
 .edu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
-.edu-card{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:22px;position:relative;overflow:hidden;transition:box-shadow 0.2s}
+.edu-card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:16px;position:relative;overflow:hidden;transition:box-shadow 0.2s}
 .edu-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--purple),var(--teal))}
 .edu-card:hover{box-shadow:var(--shadow)}
 .edu-degree{font-size:0.97rem;font-weight:700;margin-bottom:5px;color:var(--text)}
@@ -169,11 +170,11 @@ h1{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:700;line-height:1.15;letter-
 .edu-gpa{color:var(--teal);font-weight:700;font-family:var(--mono);font-size:0.82rem}
 
 /* CONTACT */
-#contact{background:var(--bg);padding:72px 56px}
+#contact{background:var(--bg);padding:48px 48px}
 
 
 /* FOOTER */
-footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;background:var(--bg2)}
+footer{border-top:1px solid var(--border);padding:14px 40px;text-align:center;background:var(--bg2)}
 .footer-copy{font-size:0.75rem;color:var(--text3)}
 
 /* RESPONSIVE */
@@ -195,6 +196,7 @@ footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;ba
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
     <a href="#publications">Publications</a>
+    <a href="#community">Community</a>
     <a href="#contact">Contact</a>
   </div>
   <div class="nav-social">
@@ -222,12 +224,12 @@ footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;ba
         <h1 style="margin-bottom:0;white-space:nowrap">Deepeka Gurunathan</h1>
       </div>
       <p class="hero-role"><span id="typing-text">Data Scientist</span><span class="typing-cursor">|</span></p>
-      <p class="hero-bio">I build end-to-end AI systems — from scalable data pipelines to production multi-agent architectures. 9+ years delivering ML that creates measurable impact across healthcare, banking, pharma, and telecom.</p>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;justify-content:center">
-        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.75rem;font-weight:500;padding:6px 12px;border-radius:20px;background:#e0f7f1;color:#0a6652;border:1px solid #99f6e4">🏥 Healthcare · Banking · Pharma · Telecom · Gov</span>
-        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.75rem;font-weight:500;padding:6px 12px;border-radius:20px;background:#ede9ff;color:#5338c2;border:1px solid #c4baf8">🎓 MS Advanced Data Analytics · UNT · 4.0 GPA</span>
-        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.75rem;font-weight:500;padding:6px 12px;border-radius:20px;background:#f3f2fb;color:#6c56f0;border:1px solid #cdc9f0">🤖 Multi-Agent AI Engineer</span>
-        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.75rem;font-weight:500;padding:6px 12px;border-radius:20px;background:#fef3c7;color:#92560a;border:1px solid #fde68a">🏆 Award-winning Research · UNT 2025</span>
+      <p class="hero-bio">End-to-end ML engineer with a research mindset. From 10M-record healthcare pipelines to 5-agent oncology AI — I build systems that create real impact across healthcare, banking, pharma, and telecom.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;justify-content:center">
+        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.7rem;font-weight:500;padding:4px 10px;border-radius:20px;background:#e0f7f1;color:#0a6652;border:1px solid #99f6e4">🏥 Healthcare · Banking · Pharma · Telecom · Gov</span>
+        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.7rem;font-weight:500;padding:4px 10px;border-radius:20px;background:#ede9ff;color:#5338c2;border:1px solid #c4baf8">🎓 MS Advanced Data Analytics · UNT · 4.0 GPA</span>
+        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.7rem;font-weight:500;padding:4px 10px;border-radius:20px;background:#f3f2fb;color:#6c56f0;border:1px solid #cdc9f0">🤖 Multi-Agent AI Engineer</span>
+        <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.7rem;font-weight:500;padding:4px 10px;border-radius:20px;background:#fef3c7;color:#92560a;border:1px solid #fde68a">🏆 Award-winning Research · UNT 2025</span>
       </div>
       <div class="hero-actions">
         <a class="btn-primary" href="#projects">View Projects →</a>
@@ -259,214 +261,101 @@ footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;ba
 <section id="projects">
   <div class="section-inner">
     <h2>Projects</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
 
-    <div class="row-section">
-      <div class="row-label">🤖 Multi-Agent AI Systems</div>
-      <div class="scroll-row">
-        <div class="pcard wide">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#ede9ff,#ddd6fe)">🧬</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Molecular Intel Agent — Precision Oncology AI</div>
-            <div class="pcard-desc">5-agent LangGraph system: ChromaDB RAG + Neo4j knowledge graph + GPT-4o reasoning + XGBoost treatment ranking + clinical safety agent with HITL approval & PII masking. Deployed on GCP.</div>
-            <div class="pcard-tags"><span class="ptag">GPT-4o</span><span class="ptag">LangGraph</span><span class="ptag">Neo4j</span><span class="ptag">ChromaDB</span><span class="ptag">XGBoost</span><span class="ptag">GCP</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="https://github.com/deepekaguru/molecular-intel-agent" target="_blank">🚀 App</a>
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru/molecular-intel-agent" target="_blank">{ } Code</a>
-            </div>
-          </div>
+      <!-- 1. Molecular Intel Agent -->
+      <div class="pcard" style="flex:none">
+        <div class="pcard-thumb" style="padding:0;overflow:hidden">
+          <img src="https://raw.githubusercontent.com/deepekaguru/Molecular-intel-agent/main/Molecular%20Intel.png" alt="Molecular Intel Agent" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.style.background='linear-gradient(135deg,#ede9ff,#ddd6fe)';this.style.display='none'">
         </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0)">🏦</div>
-          <div class="pcard-body">
-            <div class="pcard-title">BONCredit Companion — FinTech 3-Agent</div>
-            <div class="pcard-desc">Debt analysis + CFPB regulatory RAG pipeline + behavioral nudging via directed acyclic LangGraph agent graph.</div>
-            <div class="pcard-tags"><span class="ptag">LangGraph</span><span class="ptag">RAG</span><span class="ptag">CFPB</span><span class="ptag">Pydantic</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="#" target="_blank">🚀 App</a>
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">🚗</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Autonomous Dealership Strategist — n8n</div>
-            <div class="pcard-desc">LLM-orchestrated inventory management with live FRED macro signals + PostgreSQL + automated email alerts. Preprint on ResearchGate.</div>
-            <div class="pcard-tags"><span class="ptag">n8n</span><span class="ptag">GPT-4o-mini</span><span class="ptag">FRED API</span><span class="ptag">PostgreSQL</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-paper" href="https://doi.org/10.13140/RG.2.2.33384.64005" target="_blank">📄 Paper</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">🏛️</div>
-          <div class="pcard-body">
-            <div class="pcard-title">LA Procurement Compliance Engine</div>
-            <div class="pcard-desc">Two-agent Streamlit pipeline — Compliance Auditor + Triage Agent — for city procurement document review using GPT-4o-mini.</div>
-            <div class="pcard-tags"><span class="ptag">GPT-4o-mini</span><span class="ptag">Streamlit</span><span class="ptag">Agents</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="#" target="_blank">🚀 App</a>
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#e0f7f1,#99f6e4)">🩺</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Cotiviti Clinical Decision Agent</div>
-            <div class="pcard-desc">3-layer agentic reasoning: rule-based → GPT-4o-mini → RAG escalation for prior authorization. Deployed on Streamlit Cloud.</div>
-            <div class="pcard-tags"><span class="ptag">GPT-4o-mini</span><span class="ptag">RAG</span><span class="ptag">Streamlit</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="#" target="_blank">🚀 App</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
+        <div class="pcard-body">
+          <div class="pcard-title">Molecular Intel Agent — Precision Oncology AI</div>
+          <div class="pcard-desc">5-agent LangGraph system combining ChromaDB RAG, Neo4j knowledge graph, GPT-4o reasoning, XGBoost ranking, and a clinical safety agent with HITL approval and PII masking. Deployed on GCP.</div>
+          <div class="pcard-tags"><span class="ptag">GPT-4o</span><span class="ptag">LangGraph</span><span class="ptag">Neo4j</span><span class="ptag">ChromaDB</span><span class="ptag">XGBoost</span><span class="ptag">GCP</span></div>
+          <div class="pcard-actions">
+            <a class="pa pa-demo" href="https://molecular-intel-agent.streamlit.app/" target="_blank">🚀 App</a>
+            <a class="pa pa-video" href="https://www.loom.com/share/d44a872d64074aa0a9a330d6ed01e2d8" target="_blank">🎬 Demo</a>
+            <a class="pa pa-code" href="https://github.com/deepekaguru/molecular-intel-agent" target="_blank">{ } Code</a>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row-section">
-      <div class="row-label">🔍 RAG & GenAI</div>
-      <div class="scroll-row">
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#ede9ff,#ddd6fe)">🏥</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Clinical Trial Research Agent</div>
-            <div class="pcard-desc">Stateful LangGraph agent running 100% on-device via Ollama + Llama 3.2. Safety node + NIH ClinicalTrials.gov API.</div>
-            <div class="pcard-tags"><span class="ptag">LangGraph</span><span class="ptag">Ollama</span><span class="ptag">Llama 3.2</span><span class="ptag">Streamlit</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="https://github.com/deepekaguru/Agentic_AI_Medical-Research-Agent" target="_blank">🚀 App</a>
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru/Agentic_AI_Medical-Research-Agent" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#fee2e2,#fecaca)">🕵️</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Fraud Investigation Copilot</div>
-            <div class="pcard-desc">Policy RAG + historical case retrieval + structured JSON audit output via FastAPI. Explains why each transaction was flagged.</div>
-            <div class="pcard-tags"><span class="ptag">FastAPI</span><span class="ptag">LangChain</span><span class="ptag">ChromaDB</span><span class="ptag">RAG</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="https://github.com/deepekaguru/Fraud-Investigation-Copilot" target="_blank">🚀 App</a>
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru/Fraud-Investigation-Copilot" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0)">🧾</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Refund Easy — LangGraph + FastAPI</div>
-            <div class="pcard-desc">Autonomous refund processing agent with SQLite state. Backend on Render, UI on Streamlit Cloud, GitHub Actions keepalive.</div>
-            <div class="pcard-tags"><span class="ptag">LangGraph</span><span class="ptag">FastAPI</span><span class="ptag">Streamlit</span><span class="ptag">Render</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="https://github.com/deepekaguru/Refund-Easy" target="_blank">🚀 App</a>
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru/Refund-Easy" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#e0e7ff,#c7d2fe)">💊</div>
-          <div class="pcard-body">
-            <div class="pcard-title">DrugInfoGen — AI Drug Assistant</div>
-            <div class="pcard-desc">Streamlit app generating human-readable drug information via GPT-4. Dual search by drug name or health condition.</div>
-            <div class="pcard-tags"><span class="ptag">GPT-4</span><span class="ptag">Streamlit</span><span class="ptag">OpenAI API</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="#" target="_blank">🚀 App</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">🎙️</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Voice Bot — Twilio + OpenAI Realtime</div>
-            <div class="pcard-desc">Patient simulator using Twilio + OpenAI Realtime API + FastAPI. Real-time bi-directional audio for clinical training.</div>
-            <div class="pcard-tags"><span class="ptag">Twilio</span><span class="ptag">OpenAI Realtime</span><span class="ptag">FastAPI</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
+      <!-- 2. Fraud Investigation Copilot -->
+      <div class="pcard" style="flex:none">
+        <div class="pcard-thumb" style="background:linear-gradient(135deg,#fee2e2,#fecaca)">🕵️</div>
+        <div class="pcard-body">
+          <div class="pcard-title">Fraud Investigation Copilot</div>
+          <div class="pcard-desc">AI copilot that explains fraud flags via policy RAG, historical case retrieval, and structured JSON audit output via FastAPI. Answers why each transaction was flagged.</div>
+          <div class="pcard-tags"><span class="ptag">FastAPI</span><span class="ptag">LangChain</span><span class="ptag">ChromaDB</span><span class="ptag">RAG</span><span class="ptag">Python</span></div>
+          <div class="pcard-actions">
+            <a class="pa pa-code" href="https://github.com/deepekaguru/Fraud-Investigation-Copilot" target="_blank">{ } Code</a>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row-section">
-      <div class="row-label">📊 ML Models & Analytics</div>
-      <div class="scroll-row">
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#e0f2fe,#bae6fd)">✈️</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Sequence Spoilage Risk — U.S. Airline Capstone</div>
-            <div class="pcard-desc">XGBoost + Snowflake + TF-IDF NLP. 73% AUC, 61% precision for proactive pilot training operations.</div>
-            <div class="pcard-tags"><span class="ptag">XGBoost</span><span class="ptag">Snowflake</span><span class="ptag">TF-IDF</span><span class="ptag">NLP</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
+      <!-- 3. RAG FAQ Assistant -->
+      <div class="pcard" style="flex:none">
+        <div class="pcard-thumb" style="padding:0;overflow:hidden">
+          <img src="https://raw.githubusercontent.com/deepekaguru/RAG-Based-FAQ-Assistant/main/RAG%20FAQ.png" alt="RAG FAQ Assistant" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.style.background='linear-gradient(135deg,#ede9ff,#ddd6fe)';this.style.display='none'">
         </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">🧪</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Kidney CT Classification — EfficientNet</div>
-            <div class="pcard-desc">Transfer learning for kidney CT scans (Normal/Cyst/Stone/Tumor). 97% accuracy, 96% macro F1, class-imbalance-aware.</div>
-            <div class="pcard-tags"><span class="ptag">PyTorch</span><span class="ptag">EfficientNet</span><span class="ptag">Transfer Learning</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0)">📈</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Retail Sales Tax Forecasting</div>
-            <div class="pcard-desc">Facebook Prophet forecasting for Iowa quarterly retail sales tax across cities. Deployed on Streamlit Community Cloud.</div>
-            <div class="pcard-tags"><span class="ptag">Prophet</span><span class="ptag">Streamlit</span><span class="ptag">Time Series</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-demo" href="#" target="_blank">🚀 App</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#e0e7ff,#c7d2fe)">☁️</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Automobile Price Prediction — Azure ML</div>
-            <div class="pcard-desc">End-to-end ML pipeline in Azure ML Studio deployed as managed online REST endpoint for real-time inference.</div>
-            <div class="pcard-tags"><span class="ptag">Azure ML</span><span class="ptag">SDK v2</span><span class="ptag">REST API</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru/Automobile-Price-Prediction" target="_blank">{ } Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="pcard">
-          <div class="pcard-thumb" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">🏥</div>
-          <div class="pcard-body">
-            <div class="pcard-title">Hospital Performance Dashboard</div>
-            <div class="pcard-desc">Interactive Power BI dashboard — admissions, bed occupancy, claim rejection trends and financial analysis across insurance providers.</div>
-            <div class="pcard-tags"><span class="ptag">Power BI</span><span class="ptag">DAX</span><span class="ptag">Power Query</span></div>
-            <div class="pcard-actions">
-              <a class="pa pa-video" href="#">🎬 Demo</a>
-              <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
-            </div>
+        <div class="pcard-body">
+          <div class="pcard-title">RAG-Based FAQ Assistant</div>
+          <div class="pcard-desc">Retrieval-Augmented Generation FAQ assistant that answers domain-specific questions from a document knowledge base using semantic search and LLM generation.</div>
+          <div class="pcard-tags"><span class="ptag">RAG</span><span class="ptag">LangChain</span><span class="ptag">ChromaDB</span><span class="ptag">OpenAI</span><span class="ptag">Streamlit</span></div>
+          <div class="pcard-actions">
+            <a class="pa pa-demo" href="https://rag-based-faq-assistant-cquqdcexrc8hukztredmec.streamlit.app/" target="_blank">🚀 App</a>
+            <a class="pa pa-code" href="https://github.com/deepekaguru/RAG-Based-FAQ-Assistant" target="_blank">{ } Code</a>
           </div>
         </div>
       </div>
-    </div>
 
+      <!-- 4. Solar Power Forecasting -->
+      <div class="pcard" style="flex:none">
+        <div class="pcard-thumb" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">☀️</div>
+        <div class="pcard-body">
+          <div class="pcard-title">Solar Power Forecasting — Databricks</div>
+          <div class="pcard-desc">ML pipeline built on Databricks to predict hourly solar power output using real weather conditions and temporal patterns. End-to-end from ingestion to model serving.</div>
+          <div class="pcard-tags"><span class="ptag">Databricks</span><span class="ptag">PySpark</span><span class="ptag">MLflow</span><span class="ptag">XGBoost</span><span class="ptag">Python</span></div>
+          <div class="pcard-actions">
+            <a class="pa pa-code" href="https://github.com/deepekaguru/DataBricks-Renewable-Energy-Output-Prediction-Solar-Power-Forecasting" target="_blank">{ } Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Kidney CT Classification -->
+      <div class="pcard" style="flex:none">
+        <div class="pcard-thumb" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8)">🧪</div>
+        <div class="pcard-body">
+          <div class="pcard-title">Kidney CT Classification — EfficientNet</div>
+          <div class="pcard-desc">Transfer learning model for kidney CT scan classification (Normal / Cyst / Stone / Tumor). 97% accuracy and 96% macro F1 with class-imbalance-aware training.</div>
+          <div class="pcard-tags"><span class="ptag">PyTorch</span><span class="ptag">EfficientNet</span><span class="ptag">Transfer Learning</span><span class="ptag">CNN</span></div>
+          <div class="pcard-actions">
+            <a class="pa pa-code" href="https://github.com/deepekaguru" target="_blank">{ } Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Refund Easy -->
+      <div class="pcard" style="flex:none">
+        <div class="pcard-thumb" style="padding:0;overflow:hidden">
+          <img src="https://raw.githubusercontent.com/deepekaguru/Refund-Easy/main/Refund%20Easy.png" alt="Refund Easy" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.style.background='linear-gradient(135deg,#d1fae5,#a7f3d0)';this.style.display='none'">
+        </div>
+        <div class="pcard-body">
+          <div class="pcard-title">Refund Easy — LangGraph + FastAPI</div>
+          <div class="pcard-desc">Autonomous refund processing agent with SQLite state management. Backend deployed on Render, UI on Streamlit Cloud, GitHub Actions keepalive to prevent cold starts.</div>
+          <div class="pcard-tags"><span class="ptag">LangGraph</span><span class="ptag">FastAPI</span><span class="ptag">Streamlit</span><span class="ptag">Render</span><span class="ptag">SQLite</span></div>
+          <div class="pcard-actions">
+            <a class="pa pa-demo" href="https://refundeasy.streamlit.app/" target="_blank">🚀 App</a>
+            <a class="pa pa-video" href="https://www.loom.com/share/54ce04563bb54944988d93aac527c554" target="_blank">🎬 Demo</a>
+            <a class="pa pa-code" href="https://github.com/deepekaguru/Refund-Easy" target="_blank">{ } Code</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
+<div class="section-divider"></div>
 
 <!-- EXPERIENCE -->
 <section id="experience">
@@ -533,6 +422,7 @@ footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;ba
     </div>
   </div>
 </section>
+<div class="section-divider"></div>
 
 <!-- PUBLICATIONS -->
 <section id="publications">
@@ -580,9 +470,10 @@ footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;ba
     </div>
   </div>
 </section>
+<div class="section-divider"></div>
 
 <!-- EDUCATION -->
-<section id="education" style="background:var(--bg2)">
+<section id="education" style="background:#ffffff;padding:64px 48px">
   <div class="section-inner">
     <h2>Education</h2>
     <div class="edu-grid">
@@ -601,6 +492,72 @@ footer{border-top:1px solid var(--border);padding:24px 56px;text-align:center;ba
 </section>
 
 <!-- CONTACT -->
+
+<!-- COMMUNITY -->
+<section id="community" style="background:var(--bg);padding:64px 48px">
+  <div class="section-inner">
+    <h2>Community & Contributions</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:32px">
+      
+
+      <!-- LeetCode -->
+      <div style="background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:20px">
+        <div style="font-size:0.72rem;font-weight:700;color:#f89f1b;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px">🧩 LeetCode</div>
+        <img src="https://leetcard.jacoblin.cool/deepekaguru?theme=light&font=Nunito&ext=heatmap" alt="LeetCode Stats" style="width:100%;border-radius:8px" onerror="this.style.display='none'">
+        <div style="margin-top:10px">
+          <a href="https://leetcode.com/deepekaguru" target="_blank" style="font-size:0.8rem;font-weight:600;color:#f89f1b;background:#fef3c7;padding:7px 14px;border-radius:7px;border:1px solid #fde68a;display:inline-flex;align-items:center;gap:6px">View LeetCode Profile →</a>
+        </div>
+      </div>
+
+      <!-- HuggingFace -->
+      <div style="background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:20px">
+        <div style="font-size:0.72rem;font-weight:700;color:#ff9d00;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px">🤗 HuggingFace</div>
+        <p style="font-size:0.82rem;color:var(--text2);line-height:1.6;margin-bottom:14px">Active contributor on HuggingFace — publishing AI models, Spaces, and datasets. Exploring open-source LLM fine-tuning and community model sharing.</p>
+        <a href="https://huggingface.co/DeepAI123" target="_blank" style="font-size:0.8rem;font-weight:600;color:#ff9d00;background:#fff7ed;padding:7px 14px;border-radius:7px;border:1px solid #fed7aa;display:inline-flex;align-items:center;gap:6px">View HuggingFace Profile →</a>
+      </div>
+  </div>
+</section>
+<div class="section-divider"></div>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" style="background:#ffffff;padding:64px 48px">
+  <div class="section-inner">
+    <h2>What Others Say</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px">
+
+      <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:26px;position:relative;overflow:hidden">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--purple),#a78bfa)"></div>
+        <div style="font-size:2rem;color:var(--purple-mid);margin-bottom:12px;line-height:1">"</div>
+        <p style="font-size:0.85rem;color:var(--text2);line-height:1.75;margin-bottom:18px;font-style:italic">She is exceptionally smart, talented, and highly independent in her work. Throughout the capstone project, she consistently delivered high-quality results with minimal guidance and demonstrated strong initiative, professionalism, and problem-solving ability. Deepeka also represented UNT in presenting project outcomes to industry stakeholders with confidence and professionalism.</p>
+        <div style="display:flex;align-items:center;gap:12px">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--purple-light);display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700;color:var(--purple)">JT</div>
+          <div>
+            <div style="font-size:0.85rem;font-weight:700;color:var(--text)">Dr. Jingjing Tong</div>
+            <div style="font-size:0.75rem;color:var(--text3)">Clinical Assistant Professor · University of North Texas</div>
+          </div>
+          <a href="https://www.linkedin.com/in/jingjing-tong-334b1581/" target="_blank" style="margin-left:auto;font-size:0.72rem;color:var(--purple);font-weight:600;background:var(--purple-light);padding:5px 10px;border-radius:5px">LinkedIn →</a>
+        </div>
+      </div>
+
+      <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:26px;position:relative;overflow:hidden">
+        <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal),#34d399)"></div>
+        <div style="font-size:2rem;color:var(--purple-mid);margin-bottom:12px;line-height:1">"</div>
+        <p style="font-size:0.85rem;color:var(--text2);line-height:1.75;margin-bottom:18px;font-style:italic">She consistently stands out for her intellectual curiosity, creativity, and initiative. She fully grasped the real-world problem and research objectives, then took initiative to write new Python code, conduct experiments, perform statistical analyses, and build summary dashboards. Her contributions led to completing the project on time.</p>
+        <div style="display:flex;align-items:center;gap:12px">
+          <div style="width:40px;height:40px;border-radius:50%;background:var(--teal-light);display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700;color:var(--teal)">SP</div>
+          <div>
+            <div style="font-size:0.85rem;font-weight:700;color:var(--text)">Stephen Penn, DM, PMP</div>
+            
+          </div>
+          <a href="https://www.linkedin.com/in/stephenpenn/" target="_blank" style="margin-left:auto;font-size:0.72rem;color:var(--teal);font-weight:600;background:var(--teal-light);padding:5px 10px;border-radius:5px">LinkedIn →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="section-divider"></div>
+
 <section id="contact">
   <div class="section-inner">
     <h2>Contact</h2>
