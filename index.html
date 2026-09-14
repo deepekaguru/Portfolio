@@ -443,7 +443,7 @@
 
   .timeline-item {
     display: grid;
-    grid-template-columns: 140px 1fr;
+    grid-template-columns: 220px 1fr;
     gap: 2rem;
     padding: 1.5rem;
     background: var(--blue-pale);
@@ -464,6 +464,10 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .timeline-meta .timeline-role { margin-bottom: 0.25rem; }
+  .timeline-meta .timeline-company { margin-bottom: 0.35rem; }
+  .timeline-meta .timeline-date { padding-top: 0; }
 
   .timeline-role {
     font-size: 0.95rem;
@@ -894,10 +898,12 @@
    
 
       <div class="timeline-item">
-        <div class="timeline-date">Sep 2022 – Present<img src="Citi-Logo.png" alt="Citi logo" style="width:40px;height:40px;object-fit:contain;border-radius:6px;background:#fff;padding:3px;border:1px solid #e0f2fe;display:block;margin-top:8px"></div>
-        <div>
+        <div class="timeline-meta">
           <p class="timeline-role">Lead Data Scientist</p>
           <p class="timeline-company">Citi Bank · USA</p>
+          <div class="timeline-date">Sep 2022 – Present</div>
+        </div>
+        <div>
           <ul class="timeline-bullets">
             <li>Led GBM-based fraud model under extreme class imbalance (~0.2% fraud rate) — achieved OOT AUC ~0.88, capturing ~40% of confirmed fraud in top 5% risk scores with 3+ vintage validation.</li>
             <li>Deployed REST API churn scoring on Azure ML, integrating with CRM to trigger retention workflows for high-risk customers identified above optimized probability threshold.</li>
@@ -908,10 +914,12 @@
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-date">Aug 2018 – Dec 2020<img src="data:image/jpeg;base64,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" alt="GSK logo" style="width:40px;height:40px;object-fit:contain;border-radius:6px;background:#fff;padding:3px;border:1px solid #e0f2fe;display:block;margin-top:8px"></div>
-        <div>
+        <div class="timeline-meta">
           <p class="timeline-role">Analyst, Clinical Data Systems</p>
           <p class="timeline-company">GlaxoSmithKline · India</p>
+          <div class="timeline-date">Aug 2018 – Dec 2020</div>
+        </div>
+        <div>
           <ul class="timeline-bullets">
             <li>Built patient stratification models using Random Forest and XGBoost — 87% classification accuracy on clinical trial data with automated preprocessing reducing training latency by 47%.</li>
             <li>Designed XGBoost regression to quantify biomarker reduction in confirmed responders (MAE ~10%, R² ~0.78), supporting dose-response analysis for clinical team.</li>
@@ -921,10 +929,12 @@
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-date">Aug 2016 – Jul 2018<img src="data:image/jpeg;base64,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" alt="UHG logo" style="width:40px;height:40px;object-fit:contain;border-radius:6px;background:#fff;padding:3px;border:1px solid #e0f2fe;display:block;margin-top:8px"></div>
-        <div>
+        <div class="timeline-meta">
           <p class="timeline-role">Data Engineer</p>
           <p class="timeline-company">UnitedHealth Group · India</p>
+          <div class="timeline-date">Aug 2016 – Jul 2018</div>
+        </div>
+        <div>
           <ul class="timeline-bullets">
             <li>Designed scalable ETL pipelines processing 10M+ healthcare claim records daily on AWS S3 and Talend — increased processing capacity by 30% via optimized partitioning and parallel execution.</li>
             <li>Implemented CI/CD pipelines using Jenkins and Kubernetes for containerized data workflows — reduced deployment time by 40% and improved release reliability.</li>
@@ -934,10 +944,12 @@
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-date">Mar 2013 – Jul 2016<img src="data:image/jpeg;base64,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" alt="Telkomsel logo" style="width:40px;height:40px;object-fit:contain;border-radius:6px;background:#fff;padding:3px;border:1px solid #e0f2fe;display:block;margin-top:8px"></div>
-        <div>
+        <div class="timeline-meta">
           <p class="timeline-role">ETL Developer</p>
           <p class="timeline-company">Telkomsel · India</p>
+          <div class="timeline-date">Mar 2013 – Jul 2016</div>
+        </div>
+        <div>
           <ul class="timeline-bullets">
             <li>Built large-scale batch ETL pipelines using IBM InfoSphere DataStage — ingested and processed 5–10M+ telecom CDR records daily for customer usage analysis and churn modeling.</li>
             <li>Performed performance tuning across distributed ETL jobs (parallel processing, partitioning, join optimization) — reduced data latency by ~25% within 4 months.</li>
@@ -974,7 +986,7 @@
 <section class="achievements-section" id="achievements">
   <div class="achievements-inner">
     <span class="section-eyebrow">ACHIEVEMENTS</span>
-    <h2 class="section-title">Recognition and research.</h2>
+    <h2 class="section-title">Research, Recognition & Impact.</h2>
     <div class="achievements-grid">
       <div class="achievement-card">
         <div class="achievement-icon">🏆</div>
